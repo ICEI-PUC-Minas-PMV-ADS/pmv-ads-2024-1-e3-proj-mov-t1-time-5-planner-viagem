@@ -1,23 +1,28 @@
 # TÍTULO DO PROJETO
 
-`CURSO`
+`ANALISE E DESENVOLVIEMNTO DE SISTEMAS`
 
-`DISCIPLINA`
+`Projeto: Desenvolvimento de uma Aplicação Móvel em um Ambiente de Negócio`
 
-`SEMESTRE`
+`Eixo 3`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O nosso projeto consiste em desenvolver um aplicativo chamado "Planner de Viagem". Diante do aumento significativo de opções de destinos, atividades e serviços de viagem, os viajantes frequentemente se deparam com desafios ao planejar itinerários que atendam às suas preferências individuais. A ausência de uma ferramenta eficiente e integrada para organizar todas as etapas do processo de viagem, desde a escolha de destinos até a reserva de transporte e acomodação, resulta em experiências de viagem estressantes e aquém do ideal.
+
+Nesse contexto, o Planner de Viagem surge como solução para mitigar esses obstáculos, proporcionando uma abordagem mais organizada e personalizada ao planejamento de viagens. O aplicativo visa simplificar e otimizar o processo, permitindo que os usuários criem itinerários sob medida, levando em consideração suas preferências e necessidades específicas. Com essa ferramenta integrada, buscamos transformar experiências de viagem em momentos mais agradáveis e livres de estresse.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Daniel Drumond Fonte Boa
+* Isaac Heder Ferreira Paulo
+* Juliane Rodrigues Ferreira
+* Marcos Henrique Aguiar França
+* Matheus Nunes Guimarães
+* Maria Fernanda Silva Salomão
+* Weglesson de Moura Silva
 
 ## Orientador
 
-* Nome completo do professor 1
+* Will Ricardo dos Santos Machado
 
 ## Instruções de utilização
 
