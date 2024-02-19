@@ -1,8 +1,14 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+Em um mundo repleto de possibilidades de destinos e experiências, o planejamento de viagens pode ser tanto empolgante quanto desafiador. É nesse cenário que surge nossa solução, um aplicativo móvel projetado para simplificar e aprimorar cada etapa da jornada do viajante. Uma plataforma abrangente que oferece uma abordagem integrada e personalizada para o planejamento de viagens.
+
 
 ## Problema
+
+No contexto atual de viagens, os viajantes enfrentam um desafio constante ao planejar suas jornadas: a falta de uma ferramenta eficiente e integrada para organizar todas as etapas do processo. Com o aumento significativo de opções de destinos, atividades e serviços de viagem, a tarefa de criar itinerários que atendam às preferências individuais tornou-se cada vez mais complexa. Isso resulta em experiências de viagem aquém do ideal, muitas vezes estressantes e frustrantes para os viajantes.
+
+
+
 Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
 
 Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
@@ -16,6 +22,16 @@ Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thin
 
 ## Objetivos
 
+Desenvolver um software, que visa solucionar os desafios enfrentados pelos viajantes durante o processo de planejamento de suas jornadas, oferecendo uma solução abrangente e eficaz para tornar o processo de organização mais simples e satisfatório.
+
+**Objetivos específicos:**
+
+- Fornecer aos viajantes uma solução eficiente que simplifica o processo de planejamento de suas viagens, tornando-o mais tranquilo e sem complicações.
+- Minimizar o tempo necessário para planejar uma viagem, proporcionando aos viajantes uma ferramenta que simplifique o processo de escolha de destinos, atividades e serviços.
+
+
+
+
 Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
 
 Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
@@ -24,6 +40,11 @@ Apresente também alguns (pelo menos 2) objetivos específicos dependendo de ond
 > - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
 ## Justificativa
+
+O desenvolvimento deste software destinado ao planejamento de viagens é motivado pela crescente demanda por soluções que facilitem e otimizem o processo de organização de jornadas. Esta iniciativa busca atender às necessidades dos viajantes, oferecendo uma ferramenta eficiente para lidar com os desafios frequentemente encontrados ao planejar viagens. A relevância deste projeto se destaca pela sua capacidade de transformar uma experiência muitas vezes estressante e complexa em algo mais tranquilo, estruturado e satisfatório para os usuários, promovendo assim uma vivência mais gratificante ao explorar novos destinos.
+
+
+
 
 Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
 
