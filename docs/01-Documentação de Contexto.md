@@ -54,6 +54,9 @@ O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estat�
 > - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
+O aplicativo será desenvolvido para atender a uma diversidade de públicos, incluindo viajantes frequentes ou de negócios, turistas, famílias e até mesmo aqueles com interesses específicos.
+Seja um executivo correndo entre reuniões, uma família planejando suas férias ou um viajante solo em busca de novas aventuras, o software desenvolvido será solução para todos que desejam explorar e conhecer diversas regiões, mas enfrentam dificuldades na organização e planejamento de suas viagens.  
+
 
 Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
 hierárquicas, etc.
