@@ -1,10 +1,6 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
-
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+O desenvolvimento deste software destinado ao planejamento de viagens é motivado pela crescente demanda por soluções que facilitem e otimizem o processo de organização de viagens. Serão utilizadas técnicas como entrevistas, pesquisa de mercado e criação de personas para compreender as necessidades dos usuários. As histórias de usuários descreverão as tarefas que os usuários desejam realizar na aplicação. Com base nisso, os requisitos funcionais e não funcionais irão garantir que a aplicação atenda às expectativas de desempenho, segurança e usabilidade. Por fim, consideramos as restrições do projeto, como limitações técnicas e orçamentárias. 
 
 ## Personas
 
