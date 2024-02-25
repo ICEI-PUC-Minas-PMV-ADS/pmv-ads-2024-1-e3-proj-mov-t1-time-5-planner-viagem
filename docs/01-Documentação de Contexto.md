@@ -6,8 +6,6 @@ Em um contexto onde a diversidade de destinos e experiências de viagem é vasta
 
 No cenário atual de viagens, os indivíduos enfrentam constantes desafios ao planejar suas jornadas devido à falta de uma ferramenta eficiente e integrada para organizar todas as etapas do processo. Com a crescente oferta de destinos, atividades e serviços de viagem, a criação de itinerários que atendam às preferências individuais tornou-se uma tarefa cada vez mais complexa. Isso resulta em experiências de viagem muitas vezes abaixo do ideal, causando estresse e frustração aos viajantes.
 
-Para abordar essa lacuna, nosso aplicativo visa simplificar o processo de planejamento de viagens, oferecendo uma solução completa que atenda às necessidades individuais dos usuários.
-
 ## Objetivos
 
 O objetivo geral deste projeto é desenvolver um software que resolva os desafios enfrentados pelos viajantes durante o planejamento de suas jornadas, proporcionando uma solução abrangente e eficaz para tornar o processo de organização mais simples e satisfatório.
