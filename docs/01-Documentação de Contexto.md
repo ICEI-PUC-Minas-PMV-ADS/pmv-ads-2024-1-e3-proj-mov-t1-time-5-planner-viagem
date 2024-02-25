@@ -18,7 +18,9 @@ Desenvolver um software que resolva os desafios enfrentados pelos viajantes dura
 
 ## Justificativa
 
-O desenvolvimento deste aplicativo é motivado pela demanda por soluções que facilitem e otimizem o processo de organização de viagens. Como destacado por Barbosa e Medaglia (2020), os viajantes contemporâneos estão buscando, por meio da tecnologia digital, não apenas mais informações, mas também maior autonomia para planejar suas próprias jornadas. Souza e Machado (2017, p. 256) observam que "as ferramentas digitais proporcionaram maior autonomia para o planejamento e definição de viagens".
+Uma pesquisa realizada pelo Ministério do Turismo Brasileiro, em parceria com o Instituto de Pesquisa de Reputação e Imagem (IPRI, 2023), apontou que 52% dos brasileiros entrevistados que viajam a lazer com frequência começam a planejar suas viagens com três meses de antecedência, sendo 30% com apenas um mês. Ainda segunda a pesquisa, esse planejamento leva em consideração fatores como, orçamento, duração, definição de destino, roteiro, meios de tranporte e hospedagem.  
+
+Isso destaca que o planejamento de uma viagem pode se tornar uma tarefa desafiadora e complexa. Por isso, abre margem para o emprego da tecnologia de forma a auxiliar nesse processo. Como destacado por Barbosa e Medaglia (2020), os viajantes contemporâneos buscam, por meio da tecnologia digital, não apenas mais informações, mas também maior autonomia para planejar suas próprias viagens. Souza e Machado (2017, p. 256) observam que "as ferramentas digitais proporcionaram maior autonomia para o planejamento e definição de viagens". 
 
 Assim, a proposta deste projeto visa atender às demandas dos viajantes, proporcionando uma ferramenta eficaz para enfrentar os desafios comuns no planejamento de viagens. A importância desta iniciativa reside na capacidade de converter uma experiência frequentemente estressante e complexa em algo mais tranquilo, organizado e satisfatório para os usuários.
 
