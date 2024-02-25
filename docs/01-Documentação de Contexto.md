@@ -19,7 +19,8 @@ Esses objetivos específicos direcionarão o desenvolvimento do aplicativo, conc
 
 ## Justificativa
 
-O desenvolvimento deste aplicativo é motivado pela crescente demanda por soluções que facilitem e otimizem o processo de organização de viagens. Como destacado por  Barbosa, D. P., & Medaglia, J. (2020), os viajantes contemporâneos estão buscando, por meio da tecnologia digital, não apenas mais informações, mas também maior autonomia para planejar suas próprias jornadas. De acordo com Souza e Machado (2017, p. 256) “as ferramentas digitais trouxeram maior autonomia para o planejamento e definição de viagens (...)”.
+O desenvolvimento deste aplicativo é motivado pela crescente demanda por soluções que facilitem e otimizem o processo de organização de viagens. Como destacado por Barbosa e Medaglia (2020), os viajantes contemporâneos estão buscando, por meio da tecnologia digital, não apenas mais informações, mas também maior autonomia para planejar suas próprias jornadas. De acordo com Souza e Machado (2017, p. 256) “as ferramentas digitais trouxeram maior autonomia para o planejamento e definição de viagens (...)”.
+
 Dessa forma, a iniciativa busca deste projeto, busca atender às necessidades dos viajantes, oferecendo uma ferramenta eficiente para lidar com os desafios frequentes encontrados ao planejar viagens. A relevância deste projeto destaca-se pela capacidade de transformar uma experiência muitas vezes estressante e complexa em algo mais tranquilo, estruturado e satisfatório para os usuários, promovendo assim uma vivência mais gratificante ao explorar novos destinos.
 
 ## Público-Alvo
