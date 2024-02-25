@@ -92,10 +92,20 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+| ID    | Descrição do Requisito                                          | Prioridade |
+|------|------------------------------------------------------------------|------------|
+|RF-001| Os usuários devem poder se cadastrar na aplicação fornecendo um nome de usuário único, um endereço de e-mail único e válido e uma senha segura. | ALTA      |
+|RF-002| Os usuários devem poder fazer login na aplicação usando seu nome de usuário/e-mail e senha. | ALTA      |
+|RF-003| Os usuários devem poder recuperar o acesso à sua conta seguindo um processo seguro de redefinição de senha. | ALTA       |
+|RF-004| Os usuários devem poder realizar um pré-cadastro de viagem, fornecendo detalhes como destino, data de chegada e data de saída. | ALTA       |
+|RF-005| Os usuários devem ter a opção de editar ou excluir os detalhes do pré-cadastro de viagem a qualquer momento. | ALTA       |
+|RF-006| Os usuários devem poder adicionar ou editar notas detalhadas sobre o itinerário da viagem, incluindo locais a serem visitados, atividades planejadas e horários. | ALTA       |
+|RF-007| Os usuários devem poder adicionar e editar notas específicas sobre a acomodação, como informações de reserva, endereço, contato do hotel e comodidades disponíveis. | MÉDIA      |
+|RF-008| Os usuários devem poder adicionar e editar notas relacionadas ao transporte, como detalhes de voos, horários de trens, reservas de ônibus ou aluguel de carros. | ALTA       |
+|RF-009| Os usuários devem poder criar e editar listas personalizadas para organizar itens específicos da viagem, como itens para fazer as malas, lista de compras, etc. | ALTA       |
+|RF-010| Os usuários devem poder criar e editar listas personalizadas para organizar os documentos necessários para a viagem, como RG, CPF, passaporte, etc. | MÉDIA      |
+|RF-011| Os usuários devem poder registrar e editar despesas incorridas durante a viagem, como custos de transporte, acomodação, alimentação e atividades adicionais. | ALTA       |
+
 
 ### Requisitos não Funcionais
 
