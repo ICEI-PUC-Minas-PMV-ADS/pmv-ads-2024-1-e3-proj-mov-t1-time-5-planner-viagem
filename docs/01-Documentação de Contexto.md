@@ -1,6 +1,6 @@
 # Introdução
 
-Em um contexto onde a diversidade de destinos e experiências de viagem é vasta, o planejamento de uma jornada pode se tornar uma tarefa desafiadora e, muitas vezes, complexa. Nesse cenário, apresentamos uma solução inovadora: um aplicativo móvel dedicado a simplificar e aprimorar todas as fases da experiência do viajante. Essa plataforma abrangente visa fornecer uma abordagem integrada e personalizada para o planejamento de viagens, tornando-o mais acessível e satisfatório.
+Em um contexto com vasta diversidade de destinos e experiências de viagem, o planejamento de uma jornada pode se tornar uma tarefa desafiadora e complexa. Para superar esses desafios, ferramentas eficientes que auxiliam na organização de informações, automatização de tarefas e personalização de experiências são indispensáveis para que os viajantes aproveitem ao máximo sua viagem.
 
 ## Problema
 
@@ -11,10 +11,10 @@ O avanço do capitalismo no setor de turismo, com sua proliferação de destinos
 Desenvolver um software que resolva os desafios enfrentados pelos viajantes durante o planejamento de suas jornadas, proporcionando uma solução abrangente e eficaz para tornar o processo de organização mais simples e satisfatório.
 
 **Objetivos específicos:**
-- Facilitar o planejamento de atividades durante a viagem.
-- Reduzir o tempo de planejamento e otimizar a experiência de viagem
-- Manter o controle do orçamento durante a viagem.
-- Facilitar o compartilhamento de experiências com amigos e familiares
+- Facilitar o planejamento de atividades durante a viagem;
+- Reduzir o tempo de planejamento e otimizar a experiência de viagem;
+- Manter o controle do orçamento durante a viagem;
+- Facilitar o compartilhamento de experiências com amigos e familiares;
 
 ## Justificativa
 
