@@ -11,9 +11,10 @@ O avanço do capitalismo no setor de turismo, com sua proliferação de destinos
 Desenvolver um software que resolva os desafios enfrentados pelos viajantes durante o planejamento de suas jornadas, proporcionando uma solução abrangente e eficaz para tornar o processo de organização mais simples e satisfatório.
 
 **Objetivos específicos:**
-- Fornecer uma solução eficiente que simplifique o processo de planejamento de viagens para torná-lo mais tranquilo e sem complicações.
-- Minimizar o tempo necessário para planejar uma viagem, oferecendo aos usuários uma ferramenta que simplifique a escolha de destinos, atividades e serviços.
-Esses objetivos específicos direcionarão o desenvolvimento do aplicativo, concentrando-se em áreas-chave para melhorar a experiência do usuário durante o planejamento de viagens.
+- Facilitar o planejamento de atividades durante a viagem.
+- Reduzir o tempo de planejamento e otimizar a experiência de viagem
+- Manter o controle do orçamento durante a viagem.
+- Facilitar o compartilhamento de experiências com amigos e familiares
 
 ## Justificativa
 
