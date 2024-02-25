@@ -4,7 +4,7 @@ Em um contexto onde a diversidade de destinos e experiências de viagem é vasta
 
 ## Problema
 
-No cenário atual de viagens, os indivíduos enfrentam constantes desafios ao planejar suas jornadas devido à falta de uma ferramenta eficiente e integrada para organizar todas as etapas do processo. Com a crescente oferta de destinos, atividades e serviços de viagem, a criação de itinerários que atendam às preferências individuais tornou-se uma tarefa cada vez mais complexa. Isso resulta em experiências de viagem muitas vezes abaixo do ideal, causando estresse e frustração aos viajantes.
+O avanço do capitalismo no setor de turismo, com sua proliferação de destinos, atividades e serviços, torna as viagens mais acessíveis e atraentes. No entanto, essa mesma expansão gera um paradoxo: a complexa tarefa de planejar uma viagem ideal, exigindo tempo e habilidades específicas, pode resultar em experiências abaixo do ideal, causando estresse e frustração.
 
 ## Objetivos
 
