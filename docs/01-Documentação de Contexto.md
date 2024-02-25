@@ -8,7 +8,7 @@ O avanço do capitalismo no setor de turismo, com sua proliferação de destinos
 
 ## Objetivos
 
-O objetivo geral deste projeto é desenvolver um software que resolva os desafios enfrentados pelos viajantes durante o planejamento de suas jornadas, proporcionando uma solução abrangente e eficaz para tornar o processo de organização mais simples e satisfatório.
+Desenvolver um software que resolva os desafios enfrentados pelos viajantes durante o planejamento de suas jornadas, proporcionando uma solução abrangente e eficaz para tornar o processo de organização mais simples e satisfatório.
 
 **Objetivos específicos:**
 - Fornecer uma solução eficiente que simplifique o processo de planejamento de viagens para torná-lo mais tranquilo e sem complicações.
