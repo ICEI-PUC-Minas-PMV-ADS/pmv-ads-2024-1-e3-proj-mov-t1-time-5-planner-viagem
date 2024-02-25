@@ -15,7 +15,7 @@ Pedro Paulo tem 26 anos, é um jovem arquiteto cheio de ambição e entusiasmo p
 
 <figure style="display: flex; align-items: flex-start;">
   <img src="./img/victor.png" alt="Image description" width="180" height="200" style="margin-right: 20px;">
-  <figcaption> <b>Pedro Paulo</b>:<br><br>
+  <figcaption> <b>Ana Maria</b>:<br><br>
 Ana Maria é uma mulher empreendedora de 35 anos, que gerencia com sucesso sua própria agência de marketing digital ao lado de seu esposo. Apesar de sua vida profissional agitada, ela valoriza muito seu tempo livre e adora viajar com o marido sempre que possível. Ana Maria busca experiências autênticas em seus destinos, aproveitando para relaxar e conhecer novas culturas. Seu objetivo é manter o equilíbrio entre sua vida pessoal e profissional, explorar novos destinos e culturas com seu esposo durante suas viagens, e encontrar ferramentas eficazes que facilitem o planejamento e a organização de suas viagens em casal. Ana encontra desafios como conciliar sua agenda profissional com os planos de viagem em família, encontrar soluções que atendam às necessidades tanto dela quanto do marido durante as viagens, e garantir que a experiência de viagem seja tranquila e memorável para ambos.<br><br>
   </figcaption>
 </figure>
@@ -24,7 +24,7 @@ Ana Maria é uma mulher empreendedora de 35 anos, que gerencia com sucesso sua p
 
 <figure style="display: flex; align-items: flex-start;">
   <img src="./img/victor.png" alt="Image description" width="180" height="200" style="margin-right: 20px;">
-  <figcaption> <b>Pedro Paulo</b>:<br><br>
+  <figcaption> <b>Luís Afonso</b>:<br><br>
 Luís Afonso é um engenheiro de software de 30 anos, apaixonado por tecnologia e inovação. Ele adora viajar nas férias para relaxar e conhecer novos lugares. Como um profissional ocupado, Luís busca soluções eficientes e tecnológicas para ajudá-lo a organizar suas viagens de forma rápida e conveniente. Luis tem como objetivo encontrar uma maneira eficaz de planejar e organizar suas viagens, aproveitar ao máximo cada destino, explorando pontos turísticos e atividades interessantes, ter controle sobre seus gastos durante as viagens e manter-se dentro do orçamento planejado. Diante disso, Luis enfrenta problemas como encontrar tempo para planejar suas viagens devido ao seu horário de trabalho ocupado, lidar com a complexidade de organizar itinerários e acomodações, transportes durante as viagens.<br><br>
   </figcaption>
 </figure>
@@ -33,7 +33,7 @@ Luís Afonso é um engenheiro de software de 30 anos, apaixonado por tecnologia 
 
 <figure style="display: flex; align-items: flex-start;">
   <img src="./img/victor.png" alt="Image description" width="180" height="200" style="margin-right: 20px;">
-  <figcaption> <b>Pedro Paulo</b>:<br><br>
+  <figcaption> <b>Sofia Almeida</b>:<br><br>
 Sofia Almeida é uma médica de 45 anos, mãe de dois filhos adolescentes, e tem uma agenda bastante agitada devido às suas responsabilidades profissionais e familiares. Ela adora viajar com a família nas férias para aproveitar o tempo juntos e relaxar. No entanto, Sofia enfrenta desafios ao planejar suas viagens devido à complexidade de conciliar a falta de tempo e os interesses de todos os membros da família. Sofia tem como objetivo garantir que suas viagens sejam seguras e confortáveis para todos,
 manter-se dentro do orçamento familiar durante as viagens.<br><br>
   </figcaption>
