@@ -111,8 +111,10 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-001| O aplicativo deve ser rápido e responsivo, garantindo que os usuários possam acessar e manipular informações de suas viagens sem experimentar atrasos significativos ou lentidão na interface. | MÉDIA | 
+|RNF-002| O aplicativo deve processar as solicitações dos usuários em um tempo máximo de 3 segundos, garantindo uma experiência ágil e sem interrupções. |  BAIXA | 
+|RNF-003| O aplicativo deve assegurar a proteção integral dos dados dos usuários, aderindo rigorosamente aos requisitos da LGPD (Lei Geral de Proteção de Dados), incluindo a garantia de confidencialidade, integridade e disponibilidade dos dados pessoais dos usuários.  | MÉDIA |
+|RNF-004| O aplicativo deve ser desenvolvido utilizando a tecnologia React Native. | ALTA |
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
@@ -135,8 +137,9 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+|RE-01| O projeto deverá ser entregue até 23/06/2024. |
+|RE-02| Não pode ser desenvolvido um módulo de backend. |
+|RE-03| A aplicação deve ser desenvolvida exclusivamente pelos membros do grupo. |
 
 Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
 
