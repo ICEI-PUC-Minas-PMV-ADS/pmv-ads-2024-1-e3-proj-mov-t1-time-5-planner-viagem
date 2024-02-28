@@ -174,3 +174,18 @@ O gerenciamento adequado de tarefas contribuirá para que o projeto alcance alto
 O processo de determinar o orçamento do projeto é uma tarefa que depende, além dos produtos (saídas) dos processos anteriores do gerenciamento de custos, também de produtos oferecidos por outros processos de gerenciamento, como o escopo e o tempo.
 
 ![Orçamento](img/02-orcamento.png)
+
+
+## Explicação dos Valores
+
+Recursos Humanos: Este é o maior investimento porque a qualidade e a eficiência do desenvolvimento do app dependem diretamente da equipe envolvida. Profissionais qualificados garantem a entrega de um produto que atenda às expectativas do mercado e dos usuários finais.
+
+Hardware: O desenvolvimento de apps exige testes em diferentes dispositivos e plataformas para garantir compatibilidade e desempenho. Além disso, servidores robustos são necessários para suportar o desenvolvimento, testes e estágios iniciais do lançamento.
+
+Rede: A conectividade é essencial para o desenvolvimento e operação de apps móveis, especialmente quando se utiliza serviços baseados em cloud, que requerem uma internet estável e rápida.
+
+Software: O desenvolvimento de apps móveis requer diversas ferramentas especializadas, desde ambientes de desenvolvimento até ferramentas de design e testes. Além disso, muitos apps integram APIs externas para adicionar funcionalidades, como mapas ou sistemas de pagamento, que geralmente têm custos associados.
+
+Serviços: A consultoria e outros serviços profissionais podem ser necessários para áreas específicas do desenvolvimento do app, como segurança cibernética, marketing digital e otimização para lojas de apps. Esses serviços complementam a expertise interna e ajudam a assegurar o sucesso do app no mercado competitivo.
+
+
