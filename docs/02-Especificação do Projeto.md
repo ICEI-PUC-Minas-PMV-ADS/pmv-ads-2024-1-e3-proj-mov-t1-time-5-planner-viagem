@@ -118,9 +118,9 @@ Enumere as restrições à sua solução. Lembre-se de que as restrições geral
 
 ## Diagrama de Casos de Uso
 
-O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos. 
+A aplicação deverá ordenar de forma prática e fácil todas as etapas e percursos de viagens, tornando o ambiente mais atrativo para o usuário. Além de pré cadastrar seu destino, usuário poderá incluir listas editáveis para conferência de documentos pessoais e itens necessários para viagem. Notas poderão ser adicionadas fornecendo detalhes a respeito de todo itinerário, transportes que serão utilizados e hospedagens agendadas. Por fim, o usuário poderá gerenciar as despesas da viagem, podendo ter uma estimativa de todos gastos.
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Casos de Uso”.
+![alt text](casos.png)
 
 > **Links Úteis**:
 > - [Criando Casos de Uso](https://www.ibm.com/docs/pt-br/elm/6.0?topic=requirements-creating-use-cases)
