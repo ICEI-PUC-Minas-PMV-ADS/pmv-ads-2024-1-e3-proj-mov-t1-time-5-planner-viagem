@@ -62,19 +62,33 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 | ID    | Descrição do Requisito                                                                                                 | Prioridade |
 |-------|--------------------------------------------------------------------------------------------------------------------------|------------|
-| RF-001| Os usuários devem poder se cadastrar na aplicação fornecendo um nome de usuário único, um endereço de e-mail único e válido e uma senha segura. | ALTA       |
-| RF-002| Os usuários devem poder fazer login na aplicação usando seu nome de usuário/e-mail e senha.                              | ALTA       |
-| RF-003| Os usuários devem poder recuperar o acesso à sua conta seguindo um processo seguro de redefinição de senha.               | MEDIA       |
-| RF-004| Os usuários devem poder realizar um pré-cadastro de viagem, fornecendo detalhes como destino, data de chegada e data de saída. | ALTA       |
-| RF-005| Os usuários devem ter a opção de editar ou excluir os detalhes do pré-cadastro de viagem a qualquer momento.             | ALTA       |
-| RF-006| Os usuários devem poder adicionar ou editar notas detalhadas sobre o itinerário da viagem, incluindo locais a serem visitados, atividades planejadas e horários. | ALTA |
-| RF-007| Os usuários devem poder adicionar e editar notas específicas sobre a acomodação, como informações de reserva, endereço, contato do hotel e comodidades disponíveis. | MÉDIA |
-| RF-008| Os usuários devem poder adicionar e editar notas relacionadas ao transporte, como detalhes de voos, horários de trens, reservas de ônibus ou aluguel de carros. | ALTA |
-| RF-009| Os usuários devem poder criar e editar listas personalizadas para organizar itens específicos da viagem, como itens para fazer as malas, lista de compras, etc. | ALTA |
-| RF-010| Os usuários devem poder criar e editar listas personalizadas para organizar os documentos necessários para a viagem, como RG, CPF, passaporte, etc. | MÉDIA |
-| RF-011| Os usuários devem poder registrar e editar despesas incorridas durante a viagem, como custos de transporte, acomodação, alimentação e atividades adicionais. | ALTA |
+| RF-001 (Cadastro de Usuários)| Os usuários devem poder se cadastrar na aplicação fornecendo um nome de usuário único, um endereço de e-mail único e válido e uma senha segura. | ALTA       |
+| RF-002 (Login de Usuários)| Os usuários devem poder fazer login na aplicação usando seu nome de usuário/e-mail e senha.                              | ALTA       |
+| RF-003 (Recuperação de Senha)| Os usuários devem poder recuperar o acesso à sua conta seguindo um processo seguro de redefinição de senha.               | MÉDIA       |
+| RF-004 (Pré-Cadastro de Viagem)| Os usuários devem poder realizar um pré-cadastro de viagem, fornecendo detalhes como destino, data de chegada e data de saída. | ALTA       |
+| RF-005 (Gerenciamento de Pré-Cadastro de Viagem)| Os usuários devem ter a opção de editar ou excluir os detalhes do pré-cadastro de viagem a qualquer momento.             | ALTA       |
+| RF-006 (Gerenciamento de Notas sobre Itinerário da Viagem)| Os usuários devem poder adicionar ou editar notas detalhadas sobre o itinerário da viagem, incluindo locais a serem visitados, atividades planejadas e horários.       | ALTA |
+| RF-007 (Notas sobre Acomodação)| Os usuários devem poder adicionar e editar notas específicas sobre a acomodação, como informações de reserva, endereço, contato do hotel e comodidades disponíveis. | MÉDIA |
+| RF-008 (Notas sobre Transporte)| Os usuários devem poder adicionar e editar notas relacionadas ao transporte, como detalhes de voos, horários de trens, reservas de ônibus ou aluguel de carros. | ALTA |
+| RF-009 (Listas Personalizadas de Itens para Viagem)| Os usuários devem poder criar e editar listas personalizadas para organizar itens específicos da viagem, como itens para fazer as malas, lista de compras, etc. | ALTA |
+| RF-010 (Listas Personalizadas de Documentos)| Os usuários devem poder criar e editar listas personalizadas para organizar os documentos necessários para a viagem, como RG, CPF, passaporte, etc. | MÉDIA |
+| RF-011 (Registro de Despesas)| Os usuários devem poder registrar e editar despesas incorridas durante a viagem, como custos de transporte, acomodação, alimentação e atividades adicionais. | ALTA |
 
+### Priorização dos Requisitos 
 
+| Requisito | Justificativa | 
+|-----------|---------------|
+|RF-001 (Cadastro de Usuários)| Esse requisito foi classificado como ALTA prioridade porque é fundamental para a funcionalidade básica da aplicação. Sem um sistema de cadastro de usuários, os usuários não poderão acessar a aplicação e utilizar seus recursos principais. |
+|RF-002 (Login de Usuários)| Também classificado como ALTA prioridade, o login de usuários é essencial para garantir que apenas usuários autorizados possam acessar a aplicação. Sem essa funcionalidade, o sistema não seria capaz de distinguir entre diferentes usuários e fornecer acesso personalizado aos seus dados e recursos. |
+|RF-003 (Recuperação de Senha)| Embora importante, este requisito foi classificado como MÉDIA prioridade porque, embora seja útil para garantir a usabilidade e a conveniência dos usuários, não é tão crítico quanto os requisitos de cadastro e login. A recuperação de senha é mais uma funcionalidade de apoio do que uma funcionalidade central para a operação da aplicação. |
+|RF-004 (Pré-Cadastro de Viagem)| Este requisito foi classificado como ALTA prioridade, pois permite aos usuários iniciar o processo de planejamento de suas viagens, fornecendo informações essenciais como destino e datas de viagem. Isso é fundamental para a funcionalidade principal da aplicação e para atender às necessidades dos usuários. |
+|RF-005 (Gerenciamento de Pré-Cadastro de Viagem)| Considerado também ALTA prioridade, este requisito é crucial para a usabilidade e a flexibilidade da aplicação. Os usuários devem ter a capacidade de editar ou excluir detalhes de suas viagens conforme necessário para refletir mudanças nos planos de viagem ou atualizações de informações. |
+|RF-006 (Gerenciamento de Notas sobre Itinerário da Viagem)| Classificado como ALTA prioridade, esse requisito permite aos usuários personalizar e organizar seus itinerários de viagem de acordo com suas preferências e necessidades. Essa funcionalidade é central para a experiência do usuário e para garantir que eles possam gerenciar eficazmente suas viagens. |
+|RF-007 (Notas sobre Acomodação)| Este requisito foi classificado como MÉDIA prioridade, pois embora seja útil para os usuários registrarem detalhes sobre sua acomodação, não é tão crítico quanto os requisitos que envolvem o planejamento e a gestão das viagens em si. Ainda assim, é importante para oferecer uma experiência completa aos usuários. |
+|RF-008 (Notas sobre Transporte)| Classificado como ALTA prioridade, este requisito permite aos usuários registrar detalhes importantes sobre seu transporte durante a viagem, como voos, trens ou aluguel de carros. Isso é crucial para o planejamento e a execução bem-sucedida da viagem. |
+|RF-009 (Listas Personalizadas de Itens para Viagem)| Classificado como ALTA prioridade, esse requisito é fundamental para permitir que os usuários organizem e planejem os aspectos práticos de suas viagens, como fazer as malas e fazer compras específicas para a viagem. |
+|RF-010 (Listas Personalizadas de Documentos)| Considerado MÉDIA prioridade, este requisito é importante para garantir que os usuários possam manter todos os documentos necessários para a viagem de forma organizada, mas pode não ser tão crucial quanto outros requisitos relacionados ao planejamento e à execução da viagem em si. |
+|RF-011 (Registro de Despesas)| Classificado como ALTA prioridade, esse requisito é essencial para permitir que os usuários gerenciem suas despesas durante a viagem, garantindo que possam manter o controle de seus gastos e orçamentos. Isso é importante para uma viagem bem-sucedida e para evitar surpresas financeiras desagradáveis. |
 
 ### Requisitos não Funcionais
 
