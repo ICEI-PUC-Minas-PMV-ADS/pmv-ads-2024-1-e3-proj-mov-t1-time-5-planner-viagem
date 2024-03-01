@@ -99,21 +99,6 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-003| O aplicativo deve assegurar a proteção integral dos dados dos usuários, aderindo rigorosamente aos requisitos da LGPD (Lei Geral de Proteção de Dados), incluindo a garantia de confidencialidade, integridade e disponibilidade dos dados pessoais dos usuários.  | MÉDIA |
 |RNF-004| O aplicativo deve ser desenvolvido utilizando a tecnologia React Native. | ALTA |
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
-
 ## Restrições
 
 O projeto está restrito pelos itens apresentados na tabela a seguir.
@@ -124,24 +109,11 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |RE-02| Não pode ser desenvolvido um módulo de backend. |
 |RE-03| A aplicação deve ser desenvolvida exclusivamente pelos membros do grupo. |
 
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
-
 ## Diagrama de Casos de Uso
 
 A aplicação deverá ordenar de forma prática e fácil todas as etapas e percursos de viagens, tornando o ambiente mais atrativo para o usuário. Além de pré cadastrar seu destino, usuário poderá incluir listas editáveis para conferência de documentos pessoais e itens necessários para viagem. Notas poderão ser adicionadas fornecendo detalhes a respeito de todo itinerário, transportes que serão utilizados e hospedagens agendadas. Por fim, o usuário poderá gerenciar as despesas da viagem, podendo ter uma estimativa de todos gastos.
 
 ![alt text](casos.png)
-
-> **Links Úteis**:
-> - [Criando Casos de Uso](https://www.ibm.com/docs/pt-br/elm/6.0?topic=requirements-creating-use-cases)
-> - [Como Criar Diagrama de Caso de Uso: Tutorial Passo a Passo](https://gitmind.com/pt/fazer-diagrama-de-caso-uso.html/)
-> - [Lucidchart](https://www.lucidchart.com/)
-> - [Astah](https://astah.net/)
-> - [Diagrams](https://app.diagrams.net/)
 
 # Matriz de Rastreabilidade
 
