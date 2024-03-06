@@ -39,6 +39,14 @@ manter-se dentro do orçamento familiar durante as viagens.<br><br>
   </figcaption>
 </figure>
 
+<hr>
+
+Maria Maia tem 28 anos e é assistente administrativa em uma pequena empresa. Ela é uma pessoa simples e prática, que gosta de aproveitar seu tempo livre para viajar e explorar novos lugares. Maria busca uma solução que facilite o planejamento de suas viagens de forma descomplicada. Ela não tem muita experiência em organizar viagens e prefere algo fácil de usar. Maria precisa de um aplicativo que ofereça funcionalidades básicas, como cadastrar suas viagens, gerenciar itinerários e manter controle de gastos, de maneira intuitiva e direta. Ela espera que essa solução a ajude a planejar suas viagens de forma eficiente, sem complicação.
+
+<hr>
+
+André Lima tem 32 anos e trabalha como contador em uma empresa de médio porte. Ele é um homem prático e organizado, que gosta de viajar nas férias para relaxar e aproveitar momentos de lazer. André busca uma solução que o ajude a planejar suas viagens de forma eficiente, sem muita complicação. Ele não é muito experiente em organizar viagens, mas deseja algo que seja fácil de usar e que o ajude a manter tudo sob controle. Ele espera que essa solução o ajude a aproveitar ao máximo suas viagens, sem precisar se preocupar com detalhes complicados.
+
 ## Histórias de Usuários
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
@@ -73,6 +81,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 | RF-009 (Listas Personalizadas de Itens para Viagem)| Os usuários devem poder criar e editar listas personalizadas para organizar itens específicos da viagem, como itens para fazer as malas, lista de compras, etc. | ALTA |
 | RF-010 (Listas Personalizadas de Documentos)| Os usuários devem poder criar e editar listas personalizadas para organizar os documentos necessários para a viagem, como RG, CPF, passaporte, etc. | MÉDIA |
 | RF-011 (Registro de Despesas)| Os usuários devem poder registrar e editar despesas incorridas durante a viagem, como custos de transporte, acomodação, alimentação e atividades adicionais. | ALTA |
+| Todos os requisitos foram analisados e aprovados por todos os stakeholders do projeto. |
 
 ### Priorização dos Requisitos 
 
