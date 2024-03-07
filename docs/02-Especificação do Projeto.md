@@ -7,7 +7,7 @@ O desenvolvimento deste software destinado ao planejamento de viagens é motivad
 <figure style="display: flex; align-items: flex-start;">
   <img src="./img/paulo.jpg" alt="Image description" width="180" height="200" style="margin-right: 20px;">
   <figcaption> <b>Pedro Paulo</b>:<br><br>
-Pedro Paulo tem 26 anos, é um jovem arquiteto cheio de ambição e entusiasmo pela vida. Desde que se formou na faculdade de arquitetura, ele tem buscado maneiras de se desenvolver profissionalmente e expandir seus horizontes. Sua paixão pela arquitetura é complementada por sua paixão por viajar e explorar diferentes culturas ao redor do mundo. Pedro tem como objetivo organizar suas viagens de forma eficiente e prática, manter controle de seus gastos durante as viagens, facilitar o planejamento de acomodações e transporte em suas viagens pelo mundo. No entanto, Pedro enfrenta desafios como controlar seus gastos e manter as finanças em ordem durante suas viagens. Além disso, busca uma solução que centralize todas as informações e facilite o planejamento da viagem. Apesar dos desafios, Pedro está determinado a encontrar uma solução que o ajude a tornar suas viagens mais organizadas e proveitosas.<br><br>
+Pedro Paulo tem 26 anos, é um jovem arquiteto cheio de ambição e entusiasmo pela vida. Desde que se formou na faculdade de arquitetura, ele tem buscado maneiras de se desenvolver profissionalmente e expandir seus horizontes. Sua paixão pela arquitetura é complementada por sua paixão por viajar e explorar diferentes culturas ao redor do mundo. Pedro tem como objetivo encontar um aplicativo que o ajude a organizar suas viagens de forma eficiente e prática, manter controle de seus gastos durante as viagens, facilitar o planejamento de acomodações e transporte em suas viagens pelo mundo. No entanto, Pedro enfrenta desafios como controlar seus gastos e manter as finanças em ordem durante suas viagens. Além disso, busca uma solução que centralize todas as informações e facilite o planejamento da viagem. Apesar dos desafios, Pedro está determinado a encontrar uma solução que o ajude a tornar suas viagens mais organizadas e proveitosas.<br><br>
   </figcaption>
 </figure>
 
@@ -63,14 +63,18 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-| Pedro  | Registrar todas as minhas despesas de viagem          | Para ter um controle detalhado dos meus gastos durante os meus passeios             |
-| Pedro  |  Criar listas  personalizadas                | Garantir que eu esteja preparado para todas as eventualidades durante minhas viagens |
-| Ana  |  Adicionar notas detalhadas sobre o itinerário da minha viagem, incluindo locais a serem visitados, atividades planejadas e horários | Organizar minha agenda e garantir que eu aproveite ao máximo cada destino durante minha viagem |
-| Ana  |  Criar itinerários personalizados   | Aproveitar ao máximo cada viagem, explorando os pontos turísticos, atividades e experiências que mais os interessam |
-| Luis  |  Criar e editar listas personalizadas para organizar itens específicos da minha viagem, como itens para fazer as malas, lista de compras |  Garantir que não esqueça nada importante e tenha uma viagem mais tranquila e sem contratempos |
+| Pedro  | Cadastrar em um aplicativo e registrar todas as minhas despesas de viagem. | Para organizar minha viagem e ter um controle detalhado dos meus gastos durante os meus passeios. |
+| Pedro  |  Criar listas de itens necessarios para viagem. | Garantir que eu esteja preparado para todas as eventualidades durante minhas viagens. |
+| Ana  |  Adicionar notas detalhadas sobre o itinerário da minha viagem, incluindo locais a serem visitados, atividades planejadas e horários. | Aproveitar ao máximo minhas viagens, explorando os pontos turísticos, atividades e experiências que mais me interessam. |
+| Ana  |   Poder recuperar o acesso à minha conta no aplicativo. | Para caso eu esqueça minha senha atual ou tenha problemas de login, quero garantir que eu possa continuar a usar o aplicativo sem problemas. |
+| Luis  |  Criar e editar listas para organizar itens específicos da minha viagem, como itens para fazer as malas, lista de compras |  Garantir que não esqueça nada importante e tenha uma viagem mais tranquila e sem contratempos |
 | Luis  |  Adicionar notas específicas sobre a acomodação, como informações de reserva, endereço, contato do hotel e comodidades disponíveis |  Ter todos os detalhes importantes sobre minha estadia registrados e acessíveis em um só lugar |
 | Sofia  |  Adicionar notas relacionadas ao transporte, como detalhes de voos, horários de trens, reservas de ônibus ou aluguel de carros | Organizar minha logística de viagem de forma eficiente e garantir deslocamentos suaves entre os diferentes destinos |
-| Sofia  |  Registrar despesas incorridas durante a viagem, como custos de transporte, acomodação, alimentação e atividades adicionais  | Controlar meus gastos e manter minha viagem dentro do orçamento planejado |
+| Sofia  |  Capaz de fazer login no aplicativo.  | Acessar  facilmente o aplicativo e começar a planejar minhas viagens de forma rápida e conveniente. |
+| Maria |  Realizar cadastros de viagens no aplicativo, fornecendo detalhes como destino, data de chegada e data de saída. | Facilitar o planejamento e a organização das nossas viagens em família. |
+| Maria | Registrar todas as minhas despesas durante minhas viagens. | Manter o controle dos meus gastos. |
+| André | Capaz de criar uma lista de documentos necessários para a viagem, como RG, CPF e passaporte. | Garantir que eu tenha todos os documentos importantes à mão durante minhas viagens de forma fácil e organizada. |
+| André | Ter a opção de editar ou excluir os detalhes das minhas viagens cadastradas a qualquer momento. | Caso meu destino mude ou a viagem seja adiada. |
 
 ## Requisitos
 
@@ -78,19 +82,19 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### Requisitos Funcionais
 
-| ID    | Descrição do Requisito                                                                                                 | Prioridade |
-|-------|--------------------------------------------------------------------------------------------------------------------------|------------|
-| RF-001 (Cadastro de Usuários)| Os usuários devem poder se cadastrar na aplicação fornecendo um nome de usuário único, um endereço de e-mail único e válido e uma senha segura. | ALTA       |
-| RF-002 (Login de Usuários)| Os usuários devem poder fazer login na aplicação usando seu nome de usuário/e-mail e senha.                              | ALTA       |
-| RF-003 (Recuperação de Senha)| Os usuários devem poder recuperar o acesso à sua conta seguindo um processo seguro de redefinição de senha.               | MÉDIA       |
-| RF-004 (Pré-Cadastro de Viagem)| Os usuários devem poder realizar um pré-cadastro de viagem, fornecendo detalhes como destino, data de chegada e data de saída. | ALTA       |
-| RF-005 (Gerenciamento de Pré-Cadastro de Viagem)| Os usuários devem ter a opção de editar ou excluir os detalhes do pré-cadastro de viagem a qualquer momento.             | ALTA       |
-| RF-006 (Gerenciamento de Notas sobre Itinerário da Viagem)| Os usuários devem poder adicionar ou editar notas detalhadas sobre o itinerário da viagem, incluindo locais a serem visitados, atividades planejadas e horários.       | ALTA |
-| RF-007 (Notas sobre Acomodação)| Os usuários devem poder adicionar e editar notas específicas sobre a acomodação, como informações de reserva, endereço, contato do hotel e comodidades disponíveis. | MÉDIA |
-| RF-008 (Notas sobre Transporte)| Os usuários devem poder adicionar e editar notas relacionadas ao transporte, como detalhes de voos, horários de trens, reservas de ônibus ou aluguel de carros. | ALTA |
-| RF-009 (Listas Personalizadas de Itens para Viagem)| Os usuários devem poder criar e editar listas personalizadas para organizar itens específicos da viagem, como itens para fazer as malas, lista de compras, etc. | ALTA |
-| RF-010 (Listas Personalizadas de Documentos)| Os usuários devem poder criar e editar listas personalizadas para organizar os documentos necessários para a viagem, como RG, CPF, passaporte, etc. | MÉDIA |
-| RF-011 (Registro de Despesas)| Os usuários devem poder registrar e editar despesas incorridas durante a viagem, como custos de transporte, acomodação, alimentação e atividades adicionais. | ALTA |
+| ID    | Descrição do Requisito                                                                                                 | Prioridade | Histórias de Usuarios |
+|-------|--------------------------------------------------------------------------------------------------------------------------|------------|----------------------|
+| RF-001 (Cadastro de Usuários)| Os usuários devem poder se cadastrar na aplicação fornecendo um nome de usuário único, um endereço de e-mail único e válido e uma senha segura. | ALTA       | Pedro |
+| RF-002 (Login de Usuários)| Os usuários devem poder fazer login na aplicação usando seu nome de usuário/e-mail e senha.                              | ALTA  | Sofia |
+| RF-003 (Recuperação de Senha)| Os usuários devem poder recuperar o acesso à sua conta seguindo um processo seguro de redefinição de senha.               | MÉDIA       | Ana |
+| RF-004 (Pré-Cadastro de Viagem)| Os usuários devem poder realizar um pré-cadastro de viagem, fornecendo detalhes como destino, data de chegada e data de saída. | ALTA | Maria |
+| RF-005 (Gerenciamento de Pré-Cadastro de Viagem)| Os usuários devem ter a opção de editar ou excluir os detalhes do pré-cadastro de viagem a qualquer momento.             | ALTA | André | 
+| RF-006 (Gerenciamento de Notas sobre Itinerário da Viagem)| Os usuários devem poder adicionar ou editar notas detalhadas sobre o itinerário da viagem, incluindo locais a serem visitados, atividades planejadas e horários.| ALTA | Ana |
+| RF-007 (Notas sobre Acomodação)| Os usuários devem poder adicionar e editar notas específicas sobre a acomodação, como informações de reserva, endereço, contato do hotel e comodidades disponíveis. | MÉDIA | Luis |
+| RF-008 (Notas sobre Transporte)| Os usuários devem poder adicionar e editar notas relacionadas ao transporte, como detalhes de voos, horários de trens, reservas de ônibus ou aluguel de carros. | ALTA | Sofia | 
+| RF-009 (Listas Personalizadas de Itens para Viagem)| Os usuários devem poder criar e editar listas personalizadas para organizar itens específicos da viagem, como itens para fazer as malas, lista de compras, etc. | ALTA | Luis |
+| RF-010 (Listas Personalizadas de Documentos)| Os usuários devem poder criar e editar listas personalizadas para organizar os documentos necessários para a viagem, como RG, CPF, passaporte, etc. | MÉDIA | André |
+| RF-011 (Registro de Despesas)| Os usuários devem poder registrar e editar despesas incorridas durante a viagem, como custos de transporte, acomodação, alimentação e atividades adicionais. | ALTA | Pedro |
 | Todos os requisitos foram analisados e aprovados por todos os stakeholders do projeto. |
 
 ### Priorização dos Requisitos 
@@ -132,7 +136,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 A aplicação deverá ordenar de forma prática e fácil todas as etapas e percursos de viagens, tornando o ambiente mais atrativo para o usuário. Além de pré cadastrar seu destino, usuário poderá incluir listas editáveis para conferência de documentos pessoais e itens necessários para viagem. Notas poderão ser adicionadas fornecendo detalhes a respeito de todo itinerário, transportes que serão utilizados e hospedagens agendadas. Por fim, o usuário poderá gerenciar as despesas da viagem, podendo ter uma estimativa de todos gastos.
 
-![alt text](casos.png)
+![alt text](./img/cases-de-uso-planner.png)
 
 # Matriz de Rastreabilidade
 
