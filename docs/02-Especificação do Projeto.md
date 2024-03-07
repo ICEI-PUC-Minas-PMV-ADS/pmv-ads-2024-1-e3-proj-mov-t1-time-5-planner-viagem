@@ -41,11 +41,21 @@ manter-se dentro do orçamento familiar durante as viagens.<br><br>
 
 <hr>
 
-Maria Maia tem 28 anos e é assistente administrativa em uma pequena empresa. Ela é uma pessoa simples e prática, que gosta de aproveitar seu tempo livre para viajar e explorar novos lugares. Maria busca uma solução que facilite o planejamento de suas viagens de forma descomplicada. Ela não tem muita experiência em organizar viagens e prefere algo fácil de usar. Maria precisa de um aplicativo que ofereça funcionalidades básicas, como cadastrar suas viagens, gerenciar itinerários e manter controle de gastos, de maneira intuitiva e direta. Ela espera que essa solução a ajude a planejar suas viagens de forma eficiente, sem complicação.
+<figure style="display: flex; align-items: flex-start;">
+  <img src="./img/maria.jpg" alt="Image description" width="180" height="200" style="margin-right: 20px;">
+  <figcaption> <b>Maria Maia</b>:<br><br>
+Maria Maia tem 28 anos e é assistente administrativa em uma pequena empresa. Ela é uma pessoa simples e prática, que gosta de aproveitar seu tempo livre para viajar e explorar novos lugares. Maria busca uma solução que facilite o planejamento de suas viagens de forma descomplicada. Ela não tem muita experiência em organizar viagens e prefere algo fácil de usar. Maria precisa de um aplicativo que ofereça funcionalidades básicas, como cadastrar suas viagens, gerenciar itinerários e manter controle de gastos, de maneira intuitiva e direta. Ela espera que essa solução a ajude a planejar suas viagens de forma eficiente, sem complicação.<br><br>
+  </figcaption>
+</figure>
 
 <hr>
 
-André Lima tem 32 anos e trabalha como contador em uma empresa de médio porte. Ele é um homem prático e organizado, que gosta de viajar nas férias para relaxar e aproveitar momentos de lazer. André busca uma solução que o ajude a planejar suas viagens de forma eficiente, sem muita complicação. Ele não é muito experiente em organizar viagens, mas deseja algo que seja fácil de usar e que o ajude a manter tudo sob controle. Ele espera que essa solução o ajude a aproveitar ao máximo suas viagens, sem precisar se preocupar com detalhes complicados.
+<figure style="display: flex; align-items: flex-start;">
+  <img src="./img/andre.jpg" alt="Image description" width="180" height="200" style="margin-right: 20px;">
+  <figcaption> <b>André Lima</b>:<br><br>
+André Lima tem 32 anos e trabalha como contador em uma empresa de médio porte. Ele é um homem prático e organizado, que gosta de viajar nas férias para relaxar e aproveitar momentos de lazer. André busca uma solução que o ajude a planejar suas viagens de forma eficiente, sem muita complicação. Ele não é muito experiente em organizar viagens, mas deseja algo que seja fácil de usar e que o ajude a manter tudo sob controle. Ele espera que essa solução o ajude a aproveitar ao máximo suas viagens, sem precisar se preocupar com detalhes complicados.<br><br>
+  </figcaption>
+</figure>
 
 ## Histórias de Usuários
 
