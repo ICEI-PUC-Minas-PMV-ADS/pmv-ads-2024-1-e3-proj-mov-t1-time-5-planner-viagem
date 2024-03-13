@@ -5,14 +5,14 @@
 
 Os ambientes e plataformas apresentandos a seguir formam a base para a gestão eficaz do projeto e garantem que a equipe possa colaborar de forma eficiente de forma controlada e estruturada:
 
-| Ambiente                        | Plataforma                      | Link de acesso                   |
-|--------------------------------|---------------------------------|----------------------------------|
-| Comunicação                    | Microsoft Teams e WhatsApp      | [Clique aqui](https://teams.microsoft.com/l/channel/19%3Aa09f4517be944a7c9a747480b795f463%40thread.tacv2/Time%205%20-?groupId=cef0c443-e116-44fc-8719-841163a2d79a&tenantId=14cbd5a7-ec94-46ba-b314-cc0fc972a161&ngc=true) para acessar    |
-| Documentação do projeto        | GitHub                          | [Clique aqui](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t1-time-5-planner-viagem/tree/main/docs) para acessar    |
-| Gerenciamento de Código Fonte  | GitHub                          | [Clique aqui](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t1-time-5-planner-viagem/tree/main/src) para acessar    |
-| Gerenciamento do projeto       | GitHub Projects                 | [Clique aqui](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/766) para acessar    |
-| Projeto de Interface e Wireframes | Figma                         | N/A                              |
-
+| Ambiente                                       | Plataforma                      | Link de acesso                                                                                                                                                                       |
+|-----------------------------------------------|---------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Ambiente de desenvolvimento integrado (IDE)   | Visual Studio Code             | N/A                                                                                                                                                                                  |
+| Comunicação                                   | Microsoft Teams e WhatsApp     | [Clique aqui](https://teams.microsoft.com/l/channel/19%3Aa09f4517be944a7c9a747480b795f463%40thread.tacv2/Time%205%20-?groupId=cef0c443-e116-44fc-8719-841163a2d79a&tenantId=14cbd5a7-ec94-46ba-b314-cc0fc972a161&ngc=true) para acessar |
+| Documentação do projeto                       | GitHub                          | [Clique aqui](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t1-time-5-planner-viagem/tree/main/docs) para acessar                                            |
+| Gerenciamento de Código Fonte                 | GitHub                          | [Clique aqui](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t1-time-5-planner-viagem/tree/main/src) para acessar                                             |
+| Gerenciamento do projeto                      | GitHub Projects                 | [Clique aqui](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/766) para acessar                                                                                             |
+| Projeto de Interface e Wireframes             | Figma                           | N/A                                                                                                                                                                                  |
 ## Controle de Versão
 
 A ferramenta de controle de versão adotada no projeto foi o
@@ -36,57 +36,52 @@ etiquetas:
 - `feature`: uma nova funcionalidade precisa ser introduzida
 - `hotfix`: uma funcionalidade encontra-se com problemas
 
-Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
-
-> **Links Úteis**:
-> - [Microfundamento: Gerência de Configuração](https://pucminas.instructure.com/courses/87878/)
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
->  - [Comparando fluxos de trabalho](https://www.atlassian.com/br/git/tutorials/comparing-workflows)
-> - [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
-> - [The gitflow workflow - in less than 5 mins](https://www.youtube.com/watch?v=1SXpE08hvGs)
-
 ## Gerenciamento de Projeto
 
 ### Divisão de Papéis
 
-Apresente a divisão de papéis entre os membros do grupo.
+A equipe adotará metodologias ágeis, tendo escolhido o Scrum como base para a definição do processo de desenvolvimento. A equipe está organizada da seguinte maneira:
 
-Exemplificação: A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento. A equipe está organizada da seguinte maneira:
-- Scrum Master: Felipe Domingos;
-- Product Owner: Rommel Carneiro;
-- Equipe de Desenvolvimento: Pedro Penna, Pedro Ivo, Rodrigo Richard;
-- Equipe de Design: Simone Nogueira.
+**Scrum Master:**
+- Weglesson de Moura Silva
 
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
-> - [Os papéis do Scrum e a verdade sobre cargos nessa técnica](https://www.atlassian.com/br/agile/scrum/roles)
+**Product Owner:**
+- Maria Fernanda Silva Salomao
+
+**Equipe de Desenvolvimento:**
+- Daniel Drumond Fonte Boa
+- Isaac Heder Ferreira Paulo
+- Juliane Rodrigues Ferreira
+- Marcos Henrique Aguiar França
+- Matheus Nunes Guimarães
+- Maria Fernanda Silva Salomao
+- Weglesson de Moura Silva
+
+**Equipe de Design:**
+- Maria Fernanda Silva Salomao
 
 ### Processo
 
-Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo deverá fazer uso do recurso de gerenciamento de projeto oferecido pelo GitHub, que permite acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
- 
-> **Links Úteis**:
-> - [Planejamento e Gestáo Ágil de Projetos](https://pucminas.instructure.com/courses/87878/pages/unidade-2-tema-2-utilizacao-de-ferramentas-para-controle-de-versoes-de-software)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/issues/organizing-your-work-with-project-boards/managing-project-boards/about-project-boards)
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
-> - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
+Para organizar e distribuir as tarefas do projeto, a equipe utilizará o GitHub Project, com uma estrutura composta pelas seguintes listas:
+
+1. **Backlog:** Esta lista servirá como um repositório central para todas as tarefas a serem abordadas e representa o Product Backlog. Todas as atividades identificadas ao longo do projeto também devem ser incorporadas a esta lista.
+
+2. **To Do:** Nesta lista, estará refletido o Sprint Backlog atual em que estamos trabalhando. Aqui, ficarão listadas as tarefas prioritárias a serem realizadas durante o sprint.
+
+3. **Doing:** Quando uma tarefa for iniciada, ela será movida para esta lista, indicando que está em progresso e que a equipe está atualmente trabalhando nela.
+
+4. **Done:** Na lista Done, serão registradas as tarefas que já passaram por testes e controle de qualidade, estando prontas para serem entregues ao usuário. Neste ponto, não são mais necessárias edições ou revisões adicionais; as tarefas estão agendadas e prontas para ação.
 
 ### Ferramentas
 
-As ferramentas empregadas no projeto são:
+As ferramentas empregadas no projeto são as seguintes:
 
-- Editor de código.
-- Ferramentas de comunicação
-- Ferramentas de desenho de tela (_wireframing_)
+1. **Git e Github:** Optamos pelo Git devido a ser amplamente reconhecido como a melhor ferramenta de versionamento de código disponível no mercado. O Github foi escolhido por sua integração eficiente com outras ferramentas e por facilitar a colaboração entre os membros da equipe.
 
-O editor de código foi escolhido porque ele possui uma integração com o sistema de versão. As ferramentas de comunicação utilizadas possuem integração semelhante e por isso foram selecionadas. Por fim, para criar diagramas utilizamos essa ferramenta por melhor captar as necessidades da nossa solução.
+2. **Github Projects:** Utilizamos o Github Projects devido à sua simplicidade de uso e à perfeita integração com o processo de desenvolvimento escolhido. Isso nos permite organizar e gerenciar as tarefas de forma eficaz.
 
-Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
- 
-> **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
-> - [Slack](https://slack.com/)
-> - [Github](https://github.com/)
+3. **Visual Studio Code:** Optamos por esses editores de código devido à sua excelente integração com o React Native e com o sistema de controle de versão, proporcionando um ambiente de desenvolvimento eficiente.
+
+4. **WhatsApp e Microsoft Teams:** Essas ferramentas de comunicação foram selecionadas para agilizar a colaboração da equipe. Elas oferecem uma forma rápida e eficaz de se comunicar, permitindo uma troca de informações dinâmica.
+
+5. **Figma:** Escolhemos o Figma devido à sua flexibilidade e capacidade de captar as necessidades da nossa solução de forma precisa. Ele oferece uma plataforma eficaz para a criação e colaboração no design, garantindo que nossa equipe possa visualizar e iterar sobre os conceitos de design de forma eficiente.
