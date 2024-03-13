@@ -1,12 +1,29 @@
 
 # Metodologia
 
-O grupo adota uma abordagem colaborativa, usando Microsoft Teams e WhatsApp para comunicação. O GitHub é a plataforma principal para o desenvolvimento do projeto, com uma convenção de nomenclatura de branches para gerenciar o fluxo de trabalho. O GitHub Projects é empregado para organizar e monitorar o progresso das tarefas e atividades.
-
 ## Relação de Ambientes de Trabalho
 
-Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito deverá ser apresentada em uma tabela que especifica que detalha Ambiente, Plataforma e Link de Acesso. 
-Nota: Vide documento modelo do estudo de caso "Portal de Notícias" e defina também os ambientes e frameworks que serão utilizados no desenvolvimento de aplicações móveis.
+Os ambientes e plataformas apresentandos a seguir formam a base para a gestão eficaz do projeto e garantem que a equipe possa colaborar de forma eficiente de forma controlada e estruturada:
+
+| Ambiente                        | Plataforma                      | Link de acesso                   |
+|--------------------------------|---------------------------------|----------------------------------|
+| Comunicação                    | Microsoft Teams e WhatsApp      | [Clique aqui](https://teams.microsoft.com/l/channel/19%3Aa09f4517be944a7c9a747480b795f463%40thread.tacv2/Time%205%20-?groupId=cef0c443-e116-44fc-8719-841163a2d79a&tenantId=14cbd5a7-ec94-46ba-b314-cc0fc972a161&ngc=true) para acessar    |
+| Documentação do projeto        | GitHub                          | [Clique aqui](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t1-time-5-planner-viagem/tree/main/docs) para acessar    |
+| Gerenciamento de Código Fonte  | GitHub                          | [Clique aqui](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t1-time-5-planner-viagem/tree/main/src) para acessar    |
+| Gerenciamento do projeto       | GitHub Projects                 | [Clique aqui](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/766) para acessar    |
+| Projeto de Interface e Wireframes | Figma                         | N/A                              |
+
+O grupo adota uma abordagem colaborativa para resolver problemas, utilizando uma combinação de comunicação em equipe e ferramentas de gerenciamento de código fonte.
+
+Comunicação: A equipe utiliza Microsoft Teams e WhatsApp para comunicação interna e rápida troca de informações.
+
+Gerenciamento de Código Fonte: O projeto é desenvolvido utilizando o GitHub como plataforma principal para hospedagem e colaboração de código. A equipe segue uma convenção de nomenclatura de branches para organizar o fluxo de trabalho, com diferentes branches dedicadas a diferentes estágios do desenvolvimento.
+
+GitHub Projects: Além disso, o GitHub Projects é utilizado para organizar e acompanhar o progresso das tarefas e atividades do projeto, fornecendo uma visão geral das etapas em andamento e das próximas ações a serem realizadas.
+
+Gerenciamento de Documentação: A documentação do projeto é gerenciada no GitHub, proporcionando um espaço centralizado para manter e atualizar todas as informações relevantes.
+
+Projeto de Interface e Wireframes: Para o design de interface e wireframes, utilizamos o Figma, permitindo uma colaboração eficaz e a criação de protótipos visuais interativos.
 
 ## Controle de Versão
 
