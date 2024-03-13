@@ -13,18 +13,6 @@ Os ambientes e plataformas apresentandos a seguir formam a base para a gestão e
 | Gerenciamento do projeto       | GitHub Projects                 | [Clique aqui](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/766) para acessar    |
 | Projeto de Interface e Wireframes | Figma                         | N/A                              |
 
-O grupo adota uma abordagem colaborativa para resolver problemas, utilizando uma combinação de comunicação em equipe e ferramentas de gerenciamento de código fonte.
-
-Comunicação: A equipe utiliza Microsoft Teams e WhatsApp para comunicação interna e rápida troca de informações.
-
-Gerenciamento de Código Fonte: O projeto é desenvolvido utilizando o GitHub como plataforma principal para hospedagem e colaboração de código. A equipe segue uma convenção de nomenclatura de branches para organizar o fluxo de trabalho, com diferentes branches dedicadas a diferentes estágios do desenvolvimento.
-
-GitHub Projects: Além disso, o GitHub Projects é utilizado para organizar e acompanhar o progresso das tarefas e atividades do projeto, fornecendo uma visão geral das etapas em andamento e das próximas ações a serem realizadas.
-
-Gerenciamento de Documentação: A documentação do projeto é gerenciada no GitHub, proporcionando um espaço centralizado para manter e atualizar todas as informações relevantes.
-
-Projeto de Interface e Wireframes: Para o design de interface e wireframes, utilizamos o Figma, permitindo uma colaboração eficaz e a criação de protótipos visuais interativos.
-
 ## Controle de Versão
 
 A ferramenta de controle de versão adotada no projeto foi o
