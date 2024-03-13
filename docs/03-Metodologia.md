@@ -54,11 +54,11 @@ Para organizar e distribuir as tarefas do projeto, a equipe utilizará o GitHub 
 
 A equipe adotará metodologias ágeis, tendo escolhido o Scrum como base para a definição do processo de desenvolvimento. A equipe está organizada da seguinte maneira:
 
-**Scrum Master:**
-- Weglesson de Moura Silva
-
 **Product Owner:**
 - Maria Fernanda Silva Salomao
+
+**Scrum Master:**
+- Weglesson de Moura Silva
 
 **Equipe de Desenvolvimento:**
 - Daniel Drumond Fonte Boa
