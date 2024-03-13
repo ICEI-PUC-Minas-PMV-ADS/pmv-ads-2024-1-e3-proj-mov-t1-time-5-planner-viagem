@@ -19,6 +19,10 @@ A ferramenta de controle de versão adotada no projeto foi o
 [Git](https://git-scm.com/), sendo que o [Github](https://github.com)
 foi utilizado para hospedagem do repositório.
 
+O fluxo de trabalho para gerenciamento de branches escolhido pela equipe é o Git Flow. Desta forma, todas as manutenções no código são realizadas em branches separadas, identificadas como main, develop e feature:
+
+
+
 O projeto segue a seguinte convenção para o nome de branches:
 
 - `main`: versão estável já testada do software
