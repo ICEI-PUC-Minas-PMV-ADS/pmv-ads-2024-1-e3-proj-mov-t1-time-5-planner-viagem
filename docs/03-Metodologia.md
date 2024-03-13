@@ -38,6 +38,18 @@ etiquetas:
 
 ## Gerenciamento de Projeto
 
+A equipe usa metologias ágeis para auxiliar no gerenciamento, o Scrum foi o método escolhido como base na execução do processo de desenvolvimento deste projeto.
+
+Para organizar e distribuir as tarefas do projeto, a equipe utilizará o GitHub Project, com uma estrutura composta pelas seguintes listas:
+
+1. **Backlog:** Esta lista servirá como um repositório central para todas as tarefas a serem abordadas e representa o Product Backlog. Todas as atividades identificadas ao longo do projeto também devem ser incorporadas a esta lista.
+
+2. **To Do:** Nesta lista, estará refletido o Sprint Backlog atual em que estamos trabalhando. Aqui, ficarão listadas as tarefas prioritárias a serem realizadas durante o sprint.
+
+3. **Doing:** Quando uma tarefa for iniciada, ela será movida para esta lista, indicando que está em progresso e que a equipe está atualmente trabalhando nela.
+
+4. **Done:** Na lista Done, serão registradas as tarefas que já passaram por testes e controle de qualidade, estando prontas para serem entregues ao usuário. Neste ponto, não são mais necessárias edições ou revisões adicionais; as tarefas estão agendadas e prontas para ação.
+
 ### Divisão de Papéis
 
 A equipe adotará metodologias ágeis, tendo escolhido o Scrum como base para a definição do processo de desenvolvimento. A equipe está organizada da seguinte maneira:
@@ -62,15 +74,13 @@ A equipe adotará metodologias ágeis, tendo escolhido o Scrum como base para a 
 
 ### Processo
 
-Para organizar e distribuir as tarefas do projeto, a equipe utilizará o GitHub Project, com uma estrutura composta pelas seguintes listas:
+O Scrum será utilizado como metodologia de desenvolvimento de software no projeto, com toda a equipe. A Scrum Master garantirá a adesão às práticas do Scrum e removerá quaisquer impedimentos. A Product Owner, será responsável por priorizar o backlog do produto, baseando-se nos requisitos do cliente. Além disso, a equipe de desenvolvimento e design entregará o trabalho dentro do tempo estabelecido no Sprint.
 
-1. **Backlog:** Esta lista servirá como um repositório central para todas as tarefas a serem abordadas e representa o Product Backlog. Todas as atividades identificadas ao longo do projeto também devem ser incorporadas a esta lista.
+Durante o projeto, haverá reuniões semanais com diferentes temas:
 
-2. **To Do:** Nesta lista, estará refletido o Sprint Backlog atual em que estamos trabalhando. Aqui, ficarão listadas as tarefas prioritárias a serem realizadas durante o sprint.
-
-3. **Doing:** Quando uma tarefa for iniciada, ela será movida para esta lista, indicando que está em progresso e que a equipe está atualmente trabalhando nela.
-
-4. **Done:** Na lista Done, serão registradas as tarefas que já passaram por testes e controle de qualidade, estando prontas para serem entregues ao usuário. Neste ponto, não são mais necessárias edições ou revisões adicionais; as tarefas estão agendadas e prontas para ação.
+* Reunião de acompanhamento: cada membro compartilha progresso, planos e impedimentos.
+* Reunião de revisão do sprint: apresentação do trabalho concluído, feedback do Product Owner e revisão do backlog do produto.
+* Reunião de retrospectiva do sprint: análise do sprint anterior para identificar áreas de melhoria e discutir mudanças para o futuro.
 
 ### Ferramentas
 
