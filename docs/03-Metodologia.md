@@ -1,9 +1,7 @@
 
 # Metodologia
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
-
-Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
+O grupo adota uma abordagem colaborativa, usando Microsoft Teams e WhatsApp para comunicação. O GitHub é a plataforma principal para o desenvolvimento do projeto, com uma convenção de nomenclatura de branches para gerenciar o fluxo de trabalho. O GitHub Projects é empregado para organizar e monitorar o progresso das tarefas e atividades.
 
 ## Relação de Ambientes de Trabalho
 
