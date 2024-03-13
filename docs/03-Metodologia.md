@@ -21,7 +21,7 @@ foi utilizado para hospedagem do repositório.
 
 O fluxo de trabalho para gerenciamento de branches escolhido pela equipe é o Git Flow. Desta forma, todas as manutenções no código são realizadas em branches separadas, identificadas como main, develop e feature:
 
-
+<img id="3e2fe94e" alt="Fluxo de trabalho Git – Ramificações de recurso" class="component__image" style="width:70%;" src="./img/02 Feature branches.svg" loading="lazy">
 
 O projeto segue a seguinte convenção para o nome de branches:
 
