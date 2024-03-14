@@ -35,6 +35,7 @@ etiquetas:
 - `documentation`: melhorias ou acréscimos à documentação
 - `feature`: uma nova funcionalidade precisa ser introduzida
 - `hotfix`: uma funcionalidade encontra-se com problemas
+- `release`: um lançamento de uma nova versão do software.
 
 ## Gerenciamento de Projeto
 
