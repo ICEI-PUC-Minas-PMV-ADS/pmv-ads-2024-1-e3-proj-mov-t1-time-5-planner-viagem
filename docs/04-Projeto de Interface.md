@@ -20,7 +20,7 @@ Ao entrar em nosso aplicativo, você é recebido pela nossa logo distintiva.
 
 Após isso, o usuário inicialmente visualiza a página de boas-vindas que contém um pequeno texto de apresentação da aplicação e as opções de logar ou criar conta.
 
-<img src="../docs/img/wireframe/Pagina-inicial-wireframe.png.png">
+<img src="../docs/img/wireframe/Pagina-inicial-wireframe.png">
 
 ## Cadastro 
 
