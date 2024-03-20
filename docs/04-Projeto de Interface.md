@@ -32,7 +32,7 @@ Para realizar o primeiro acesso na aplicação, o usuário precisa efetuar o cad
 
 Na tela login é possivel acessar a aplicação com um emaile e senha pré-cadastrado.
 
-<img src="../docs/img/wireframe/Logo-wireframe.png">
+<img src="../docs/img/wireframe/Login-wireframe.png">
 
 ## Redefinir senha
 
