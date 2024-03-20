@@ -38,7 +38,7 @@ Na tela login é possivel acessar a aplicação com um emaile e senha pré-cadas
 
 Na tela de redefinir senha, permite aos usuários redefinir a senha de sua conta quando a esquecerem ou desejarem alterá-la por motivos de segurança.
 
-<img src="../docs/img/wireframE/Recuperar senh-wireframe.png">
+<img src="../docs/img/wireframe/Recuperar senh-wireframe.png">
 
 ## Cadastro de Viagem 
 
