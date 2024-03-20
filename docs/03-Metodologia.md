@@ -12,7 +12,7 @@ Os ambientes e plataformas apresentandos a seguir formam a base para a gestão e
 | Documentação do projeto                       | GitHub                          | [Clique aqui](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t1-time-5-planner-viagem/tree/main/docs) para acessar                                            |
 | Gerenciamento de Código Fonte                 | GitHub                          | [Clique aqui](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t1-time-5-planner-viagem/tree/main/src) para acessar                                             |
 | Gerenciamento do projeto                      | GitHub Projects                 | [Clique aqui](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/766) para acessar                                                                                             |
-| Projeto de Interface e Wireframes             | Figma                           | N/A                                                                                                                                                                                  |
+| Projeto de Interface e Wireframes             | Figma                           | [Clique aqui](https://www.figma.com/file/OgDNsMtGClV2fsjq4VXRZx/Planner-de-Viagem?type=design&node-id=264%3A2&mode=design&t=s3SacUyawmThRh9I-1) para acessar                                                                                                                                                                                                      |
 ## Controle de Versão
 
 A ferramenta de controle de versão adotada no projeto foi o

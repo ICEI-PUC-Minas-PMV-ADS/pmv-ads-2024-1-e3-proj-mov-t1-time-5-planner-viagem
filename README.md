@@ -1,4 +1,4 @@
-# PLANNER DE VIAGEM
+# SPEEDTRIP
 
 `ANALISE E DESENVOLVIEMNTO DE SISTEMAS`
 
@@ -6,9 +6,9 @@
 
 `Eixo 3`
 
-O nosso projeto consiste em desenvolver um aplicativo chamado "Planner de Viagem". Diante do aumento significativo de opções de destinos, atividades e serviços de viagem, os viajantes frequentemente se deparam com desafios ao planejar itinerários que atendam às suas preferências individuais. A ausência de uma ferramenta eficiente e integrada para organizar todas as etapas do processo de viagem, desde a escolha de destinos até a reserva de transporte e acomodação, resulta em experiências de viagem estressantes e aquém do ideal.
+O nosso projeto consiste em desenvolver um aplicativo chamado "SpeedTrip". Diante do aumento significativo de opções de destinos, atividades e serviços de viagem, os viajantes frequentemente se deparam com desafios ao planejar itinerários que atendam às suas preferências individuais. A ausência de uma ferramenta eficiente e integrada para organizar todas as etapas do processo de viagem, desde a escolha de destinos até a reserva de transporte e acomodação, resulta em experiências de viagem estressantes e aquém do ideal.
 
-Nesse contexto, o Planner de Viagem surge como solução para mitigar esses obstáculos, proporcionando uma abordagem mais organizada e personalizada ao planejamento de viagens. O aplicativo visa simplificar e otimizar o processo, permitindo que os usuários criem itinerários sob medida, levando em consideração suas preferências e necessidades específicas. Com essa ferramenta integrada, buscamos transformar experiências de viagem em momentos mais agradáveis e livres de estresse.
+Nesse contexto, o SpeedTrip surge como solução para mitigar esses obstáculos, proporcionando uma abordagem mais organizada e personalizada ao planejamento de viagens. O aplicativo visa simplificar e otimizar o processo, permitindo que os usuários criem itinerários sob medida, levando em consideração suas preferências e necessidades específicas. Com essa ferramenta integrada, buscamos transformar experiências de viagem em momentos mais agradáveis e livres de estresse.
 
 ## Integrantes
 

@@ -1,36 +1,75 @@
 
 # Projeto de Interface
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
-
-Visão geral da interação do usuário pelas telas do sistema e protótipo interativo das telas com as funcionalidades que fazem parte do sistema (wireframes).
-
- Apresente as principais interfaces da plataforma. Discuta como ela foi elaborada de forma a atender os requisitos funcionais, não funcionais e histórias de usuário abordados nas <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a>.
-
 ## Diagrama de Fluxo
 
-O diagrama apresenta o estudo do fluxo de interação do usuário com o sistema interativo e  muitas vezes sem a necessidade do desenho do design das telas da interface. Isso permite que o design das interações seja bem planejado e gere impacto na qualidade no design do wireframe interativo que será desenvolvido logo em seguida.
+Abaixo o diagrama de fluxo com o caminho a ser percorrido pelo usuário final do site.
 
-O diagrama de fluxo pode ser desenvolvido com “boxes” que possuem internamente a indicação dos principais elementos de interface - tais como menus e acessos - e funcionalidades, tais como editar, pesquisar, filtrar, configurar - e a conexão entre esses boxes a partir do processo de interação. Você pode ver mais explicações e exemplos https://www.lucidchart.com/blog/how-to-make-a-user-flow-diagram.
+<img src="./img/fluxograma (2).png">
 
-![Exemplo de Diagrama de Fluxo](img/diagramafluxo2.jpg)
-
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagramas de Fluxo”.
-
-> **Links Úteis**:
-> - [Fluxograma online: seis sites para fazer gráfico sem instalar nada | Produtividade | TechTudo](https://www.techtudo.com.br/listas/2019/03/fluxograma-online-seis-sites-para-fazer-grafico-sem-instalar-nada.ghtml)
 
 ## Wireframes
 
-![Exemplo de Wireframe](img/wireframe-example.png)
+## Logo
 
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
+Ao entrar em nosso aplicativo, você é recebido pela nossa logo distintiva.
+
+<img src="../docs/img/wireframe/Logo-wireframe.png">
+
+## Pagina de apresentação 
+
+Após isso, o usuário inicialmente visualiza a página de boas-vindas que contém um pequeno texto de apresentação da aplicação e as opções de logar ou criar conta.
+
+<img src="../docs/img/wireframe/Pagina-inicial-wireframe.png.png">
+
+## Cadastro 
+
+Para realizar o primeiro acesso na aplicação, o usuário precisa efetuar o cadastro com seus dados pessoais.
+
+<img src="../docs/img/wireframe/Cadastro-wireframe.png">
+
+## Login 
+
+Na tela login é possivel acessar a aplicação com um emaile e senha pré-cadastrado.
+
+<img src="../docs/img/wireframe/Logo-wireframe.png">
+
+## Redefinir senha
+
+Na tela de redefinir senha, permite aos usuários redefinir a senha de sua conta quando a esquecerem ou desejarem alterá-la por motivos de segurança.
+
+<img src="../docs/img/wireframE/Recuperar senh-wireframe.png">
+
+## Cadastro de Viagem 
+
+Na tela de cadastro de viagem, oferecemos aos usuários a oportunidade de registrar uma nova viagem, fornecendo informações essenciais como destino, data de check-in e data de check-out.
+
+<img src="../docs/img/wireframe/Pré-cadastro de viagem-wireframe.png">
+
+## Seleção de datas
+
+Na tela de seleção de datas, oferecemos aos usuários a capacidade de escolher as datas de check-in e check-out para sua viagem por meio de um calendário interativo. 
+
+<img src="../docs/img/wireframe/Calendario-wireframe.png">
+
+## Home 
+
+Na página home, oferecemos aos usuários uma experiência centralizada, onde podem acessar todo o conteúdo do aplicativo e gerenciar suas viagens de forma conveniente.
+
+<img src="../docs/img/wireframe/Gerenciamento de cadastro da viagem-wireframe.png">
+
+## Pagina Principal 
+
+Na página principal, oferecemos aos usuários uma plataforma intuitiva para gerenciar todos os aspectos das suas viagens. Aqui, você pode visualizar informações importantes sobre seus destinos, datas de check-in e check-out, bem como registrar detalhes essenciais sobre itinerários, acomodações, transporte, despesas e muito mais.
+
+<img src="../docs/img/wireframe/Home-wireframe.png">
+
+## Notas não registradas 
+
+Aqui, você pode visualizar um exemplo de como serão organizados todos os registros relacionados à sua viagem, incluindo itinerários, acomodações, transporte, listas, documentos e despesas. No entanto, neste momento, não há nenhum registro adicionado para esta viagem.
+
+<img src="../docs/img/wireframe/Notas-wireframe.png">
+
+
  
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
+
