@@ -65,8 +65,9 @@ yarn-error.log
 # testing
 /coverage
 
-#gradle
-android/.gradle/8.3/executionHistory/*
-android/.gradle/8.3/fileHashes/*
+# gradle
+android/.gradle/*/executionHistory/
+android/.gradle/*/fileHashes/
+
 node_modules/
 
