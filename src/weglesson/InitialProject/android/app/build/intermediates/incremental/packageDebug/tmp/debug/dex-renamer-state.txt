@@ -1,0 +1,16 @@
+#Mon Apr 01 13:24:34 BRT 2024
+path.4=classes2.dex
+path.3=8/classes.dex
+path.2=14/classes.dex
+path.1=0/classes.dex
+path.0=classes.dex
+base.4=/home/moura/MyProjects/pmv-ads-2024-1-e3-proj-mov-t1-time-5-planner-viagem/src/weglesson/InitialProject/android/app/build/intermediates/dex/debug/mergeExtDexDebug/classes2.dex
+base.3=/home/moura/MyProjects/pmv-ads-2024-1-e3-proj-mov-t1-time-5-planner-viagem/src/weglesson/InitialProject/android/app/build/intermediates/dex/debug/mergeProjectDexDebug/8/classes.dex
+base.2=/home/moura/MyProjects/pmv-ads-2024-1-e3-proj-mov-t1-time-5-planner-viagem/src/weglesson/InitialProject/android/app/build/intermediates/dex/debug/mergeProjectDexDebug/14/classes.dex
+base.1=/home/moura/MyProjects/pmv-ads-2024-1-e3-proj-mov-t1-time-5-planner-viagem/src/weglesson/InitialProject/android/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
+base.0=/home/moura/MyProjects/pmv-ads-2024-1-e3-proj-mov-t1-time-5-planner-viagem/src/weglesson/InitialProject/android/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+renamed.3=classes4.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+renamed.4=classes5.dex
