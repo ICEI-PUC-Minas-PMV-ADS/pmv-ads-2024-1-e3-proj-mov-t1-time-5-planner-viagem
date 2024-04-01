@@ -68,3 +68,5 @@ yarn-error.log
 #gradle
 android/.gradle/8.3/executionHistory/*
 android/.gradle/8.3/fileHashes/*
+node_modules/
+
