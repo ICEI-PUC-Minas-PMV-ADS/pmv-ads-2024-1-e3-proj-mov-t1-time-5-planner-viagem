@@ -5,6 +5,10 @@
 # Xcode
 #
 build/
+.idea
+.gradle
+local.properties
+*.iml
 *.pbxuser
 !default.pbxuser
 *.mode1v3
