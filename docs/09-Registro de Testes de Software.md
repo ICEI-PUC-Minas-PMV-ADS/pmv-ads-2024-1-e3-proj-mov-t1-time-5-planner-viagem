@@ -1,12 +1,14 @@
-# Registro de Testes de Software
+## Registro de Testes de Software
 
-<span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>, <a href="8-Plano de Testes de Software.md"> Plano de Testes de Software</a>
 
-Relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado em um plano de testes pré-definido.
+| ID do Teste | Descrição                         | Pré-requisitos | Passos                      | Dados de Entrada        | Resultado Esperado       | Resultado Obtido | Status | Observações |
+|-------------|-----------------------------------|----------------|-----------------------------|-------------------------|--------------------------|------------------|--------|-------------|
+| TS-001      | **Cenário de Teste: Cadastro de usuário com sucesso**<br><br> Esse cenário almeja realizar o cadastro com sucesso de um novo usuário na aplicação. | Acesso ao aplicativo | 1. Abrir o aplicativo<br>2. Acessar a opção "cadastre-se" na tela inicial<br>3. Preencher o formulário de cadastro<br>4. Clicar no botão "Cadastrar" e validar retorno | Nome, E-mail e Senha | Cadastro realizado com sucesso | Sucesso | Passou | N/A |
+| TS-002      | **Cenário de Teste: Cadastro de usuário sem sucesso**<br><br> Esse cenário almeja realizar o cadastro sem sucesso de um usuário na aplicação, ou seja, o formulário deverá recusar a tentativa do cadastro. | Acesso ao aplicativo | 1. Abrir o aplicativo<br>2. Acessar a opção "cadastre-se" na tela inicial<br>3. Preencher apenas dois campos do formulário<br>4. Clicar no botão "Cadastrar" e validar retorno | Nome, E-mail e Senha | Todos os campos precisam ser preenchidos para se cadastrar | Sucesso | Passou | N/A |
+| TS-003      | **Cenário de Teste: Login de usuário com sucesso**<br><br> Esse cenário almeja realizar o login com sucesso de um usuário. | Acesso ao aplicativo, Um usuário já cadastrado na aplicação | 1. Abrir o aplicativo<br>2. Acessar a opção "Faça Login" na tela inicial<br>3. Preencher os campos de e-mail e senha<br>4. Clicar no botão "Entrar" e validar retorno | E-mail e Senha | Logado com sucesso | Sucesso | Passou | N/A |
+| TS-004      | **Cenário de Teste: Login de usuário sem sucesso**<br><br> Esse cenário almeja realizar o login sem sucesso de um usuário, ou seja, recusar o login do usuário por dados errados inseridos. | Acesso ao aplicativo, Um usuário já cadastrado na aplicação | 1. Abrir o aplicativo<br>2. Acessar a opção "Faça Login" na tela inicial<br>3. Preencher os campos de e-mail e senha com dados errados<br>4. Clicar no botão "Entrar" e validar retorno | E-mail e Senha | Login falhou! Confira os dados inseridos e tente novamente | Sucesso | Passou | N/A |
+| TS-005      | **Cenário de Teste: Redefinição de senha**<br><br> Esse cenário almeja realizar a redefinição de senha do usuário. | Acesso ao aplicativo, um usuário já cadastrado na aplicação e e-mail do usuário cadastrado | 1. Abrir o aplicativo<br>2. Acessar a opção "Faça Login" na tela inicial<br>3. Acessar a opção "Recupere sua senha"<br>4. Preencher o campo de "E-mail Cadastrado"<br>5. Acessar a opção de "Enviar link" e validar retorno | E-mail e Senha | Caso o e-mail inserido esteja cadastrado em nosso app, enviaremos um link para redefinição de senha | Sucesso | Passou | N/A |
+| TS-006      | **Cenário de Teste: Cadastro de Viagem**<br><br> Esse cenário almeja realizar o cadastro de viagem. | Acesso ao aplicativo, usuário logado no aplicativo | 1. Abrir o aplicativo<br>2. Acessar a opção "Faça Login" na tela inicial<br>3. Preencher os campos de e-mail e senha<br>4. Clicar no botão "Entrar"<br>5. Acessar a opção "Cadastro de Viagem"<br>6. Preencher os campos "Onde você quer ir?" e "Mais informações"<br>7. Acessar a opção "Adicionar Viagem" e validar retorno<br>8. Navegar à página "Home" e validar a nova viagem adicionada | Cidade, país, região e data da viagem | Viagem cadastrada com sucesso | Sucesso | Passou | N/A |
+| ...         | ...                               | ...            | ...                         | ...                     | ...                      | ...              | ...    | ...         |
 
-## Avaliação
-
-Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
-
-> **Links Úteis**:
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
+---
