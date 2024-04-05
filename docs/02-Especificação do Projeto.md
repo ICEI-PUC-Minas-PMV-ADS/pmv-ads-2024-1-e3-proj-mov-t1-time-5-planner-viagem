@@ -76,6 +76,12 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 | André | Capaz de criar uma lista de documentos necessários para a viagem, como RG, CPF e passaporte. | Garantir que eu tenha todos os documentos importantes à mão durante minhas viagens de forma fácil e organizada. |
 | André | Ter a opção de editar ou excluir os detalhes das minhas viagens cadastradas a qualquer momento. | Caso meu destino mude ou a viagem seja adiada. |
 
+## Indicadores de Desempenho
+
+Com os indicadores de desempenho constituímos um conjunto de medidas onde avaliamos o desempenho do aplicativo ao longo do tempo.
+
+![alt text](<indicadores de desempenho.png>)
+
 ## Requisitos
 
 As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto. Para determinar a prioridade de requisitos, aplicar uma técnica de priorização de requisitos e detalhar como a técnica foi aplicada.
