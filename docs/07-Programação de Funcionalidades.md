@@ -2,10 +2,10 @@
 
 | Membro do time                | Link src                                                                                                                                                                                  | Evidências                                  |
 | ----------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------- |
-| Daniel Drumond Fonte Boa      | [Acesse aqui](../src/Daniel)                                                                                                                                                                       | [Link]                                      |
+| Daniel Drumond Fonte Boa      | [Acesse aqui](../src/Daniel)                                                                                                                                                                       | [Acesse aqui](./img/proof-of-execution-daniel.png)                                      |
 | Isaac Heder Ferreira Paulo    | [Acesse aqui](link)                                                                                                                                                                       | [Link]                                      |
 | Juliane Rodrigues Ferreira    | [Acesse aqui](link)                                                                                                                                                                       | [Link]                                      |
 | Marcos Henrique Aguiar França | [Acesse aqui](link)                                                                                                                                                                       | [Link]                                      |
-| Matheus Nunes Guimarães       | [Acesse aqui](link)                               
-| Maria Fernanda Silva Salomão  | [Acesse aqui](../src/maria/app-expo/app-expo) | [Acesse aqui](./img/projeto-expo-maria-fernanda.png) | 
+| Matheus Nunes Guimarães       | [Acesse aqui](link)                                                                                                                                                                       | [Link]                                      |
+| Maria Fernanda Silva Salomão  | [Acesse aqui](../src/maria/app-expo/app-expo) | [Acesse aqui](./img/projeto-expo-maria-fernanda.png) |
 | Weglesson de Moura Silva      | [Acesse aqui](../src/weglesson/WeglessonProject) | [Acesse aqui](https://youtu.be/74XHptVfHRQ) |
