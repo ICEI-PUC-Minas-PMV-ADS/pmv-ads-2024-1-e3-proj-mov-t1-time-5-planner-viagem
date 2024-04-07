@@ -24,7 +24,7 @@ Para realizar o primeiro acesso na aplicação, o usuário precisa efetuar o cad
 
 ## Login 
 
-Na tela login é possivel acessar a aplicação com um emaile e senha pré-cadastrado.
+Na tela login é possivel acessar a aplicação com e-mail e senha pré-cadastrado.
 
 <img src="../docs/img/prototipo/Login.png">
 
