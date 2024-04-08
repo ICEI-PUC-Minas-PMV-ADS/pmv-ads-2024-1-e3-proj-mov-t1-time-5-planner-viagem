@@ -1,5 +1,48 @@
 # Arquitetura da Solução
+Arquitetura de Solução
+1. Definição dos Componentes Principais
+Front-end (Interface com o Usuário):
 
+Páginas/Web Views: Home, Pesquisa de Destinos, Planejamento de Rota, Reservas, Diário de Viagem, Controle de Gastos.
+Funcionalidades: Busca interativa, filtros, autenticação de usuário, formulários para planejamento, integração com mapas, feedback do usuário.
+Back-end (Lógica e Dados):
+
+APIs: Autenticação, Gerenciamento de Usuários, Busca de Destinos, Reservas (hotéis, voos, restaurantes), Planejamento de Rotas, Controle de Gastos.
+Banco de Dados: Usuários, Destinos, Reservas, Rotas, Gastos.
+Serviços Externos:
+
+APIs de terceiros para informações de viagem (ex: TripAdvisor, Google Maps, Booking.com).
+Serviço de pagamento (ex: PayPal, Stripe) para reservas e compras.
+Serviço de e-mail para notificações e confirmações.
+2. Arquitetura Técnica
+Front-end:
+
+Tecnologias Sugeridas: React Native para desenvolvimento de app móvel e Expo para facilitar o processo de desenvolvimento, testes e deploy. Bootstrap ou Material-UI para o design.
+Comunicação: Utilizar o Axios ou a Fetch API do React Native para comunicação com o back-end.
+Back-end:
+
+Framework: Node.js com Express para uma API RESTful. Fácil de usar e muita comunidade e suporte.
+Banco de Dados: MongoDB para um esquema mais livre e NoSQL, ou PostgreSQL se precisar de relações mais estritas.
+Autenticação: JWT (JSON Web Tokens) para uma gestão segura de sessões.
+Infraestrutura:
+
+Servidor: AWS EC2 ou Heroku para hospedagem fácil e escalável do back-end. Expo Cloud para hospedagem do código JavaScript do app.
+Armazenamento: AWS S3 para armazenar imagens e arquivos estáticos.
+CDN: Cloudflare para distribuição de conteúdo e segurança.
+3. Segurança e Manutenção
+Implementar autenticação e autorização robustas.
+Validação de dados tanto no cliente quanto no servidor.
+Criptografia de senhas e dados sensíveis.
+Backup regular do banco de dados.
+Monitoramento e logs para identificar e resolver problemas rapidamente.
+Qualidade do Software:
+Testes: Implementar testes automatizados em todos os níveis do projeto, utilizando Jest com React Testing Library para o front-end e Jest ou Mocha para o back-end.
+Revisão de Código: Utilizar práticas de revisão de código, como pull requests e code reviews.
+Monitoramento de Performance e Saúde da Aplicação: Usar ferramentas como Sentry, Prometheus ou Grafana.
+4. Desenvolvimento e Implantação
+Desenvolvimento: 
+Testes: Implemente testes unitários e de integração.
+Implantação: Automatize a implantação com CI/CD, utilizando GitHub Actions, Bitrise ou CircleCI para React Native. Utilize Expo para construir os binários do app e publicá-los nas lojas de aplicativos.
 
 Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
 
@@ -7,7 +50,7 @@ Definição de como o software é estruturado em termos dos componentes que faze
 
 ## Diagrama de Classes
 
-<img src ='./img/Diagrama de classes.png'>
+<img src ='./img/Diagrama de classes.drawio (1).png'>
 
 > - [Diagramas de Classes - Documentação da IBM](https://www.ibm.com/docs/pt-br/rational-soft-arch/9.6.1?topic=diagrams-class)
 > - [O que é um diagrama de classe UML? | Lucidchart](https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-classe-uml)
