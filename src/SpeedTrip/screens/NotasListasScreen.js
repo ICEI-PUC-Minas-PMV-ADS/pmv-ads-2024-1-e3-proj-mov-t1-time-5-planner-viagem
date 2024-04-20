@@ -1,5 +1,6 @@
 import React from 'react';
 import {SafeAreaView, StyleSheet, Text, View, FlatList} from 'react-native';
+import Note from '../components/Notes';
 
 const screenTitle = 'Notas/Listas';
 
@@ -19,11 +20,13 @@ const NotesListScreen = () => {
   return (
     <SafeAreaView style={styles.container}>
       <Text style={styles.title}>{screenTitle}</Text>
-      <FlatList
+      {/* <FlatList
         data={data}
         renderItem={renderItem}
         keyExtractor={item => item.id}
-      />
+      /> */}
+      <Note text={'Task 1'}></Note>
+      <Note text={'Task 2'}></Note>
     </SafeAreaView>
   );
 };
