@@ -26,6 +26,8 @@
   - Evidências: [Acesse aqui](./img/expo%20juliane.png)
 
 - Terceira Etapa
+  - Envidências: [Acesse aqui](./img/evid_notas_transporte.png)
+  - Observações: Durante o processo encontrei dificuldade em rodar o codigo na maquina local, por esse motivo a evidência desta etapa ainda se encontra em formato web.
 
 ## Marcos Henrique Aguiar França
 
