@@ -1,33 +1,66 @@
-import React from 'react';
-import {SafeAreaView, StyleSheet, Text, View, FlatList} from 'react-native';
-import Note from '../components/Notes';
+import React, {useState} from 'react';
+import {
+  KeyboardAvoidingView,
+  Platform,
+  StyleSheet,
+  TextInput,
+  TouchableOpacity,
+  View,
+  Keyboard,
+} from 'react-native';
 
-const screenTitle = 'Notas/Listas';
-
-const data = [
-  {id: '1', title: 'Item 1'},
-  {id: '2', title: 'Item 2'},
-  {id: '3', title: 'Item 3'},
-];
-
-const renderItem = ({item}) => (
-  <View style={styles.item}>
-    <Text style={styles.itemText}>{item.title}</Text>
-  </View>
-);
+// Note component to render individual note items
+const Note = ({text, onPress}) => {
+  return (
+    <TouchableOpacity onPress={onPress}>
+      <Text style={styles.note}>{text}</Text>
+    </TouchableOpacity>
+  );
+};
 
 const NotesListScreen = () => {
+  const [noteText, setNoteText] = useState('');
+  const [notes, setNotes] = useState([]);
+
+  // Add a new note to the list
+  const addNote = () => {
+    Keyboard.dismiss();
+    if (noteText.trim() !== '') {
+      setNotes([...notes, noteText]);
+      setNoteText('');
+    }
+  };
+
+  // Delete a note from the list
+  const deleteNote = index => {
+    const updatedNotes = [...notes];
+    updatedNotes.splice(index, 1);
+    setNotes(updatedNotes);
+  };
+
   return (
-    <SafeAreaView style={styles.container}>
-      <Text style={styles.title}>{screenTitle}</Text>
-      {/* <FlatList
-        data={data}
-        renderItem={renderItem}
-        keyExtractor={item => item.id}
-      /> */}
-      <Note text={'Task 1'}></Note>
-      <Note text={'Task 2'}></Note>
-    </SafeAreaView>
+    <View style={styles.container}>
+      <View style={styles.notesContainer}>
+        {notes.map((note, index) => (
+          <Note key={index} text={note} onPress={() => deleteNote(index)} />
+        ))}
+      </View>
+      <KeyboardAvoidingView
+        behavior={Platform.OS === 'ios' ? 'padding' : 'height'}
+        style={styles.inputContainer}>
+        <TextInput
+          style={styles.input}
+          placeholder={'Add a note'}
+          value={noteText}
+          onChangeText={text => setNoteText(text)}
+        />
+        <TouchableOpacity onPress={addNote}>
+          <View style={styles.addButton}>
+            <Text style={styles.addButtonText}>+</Text>
+          </View>
+        </TouchableOpacity>
+      </KeyboardAvoidingView>
+    </View>
   );
 };
 
@@ -38,21 +71,44 @@ const styles = StyleSheet.create({
     paddingHorizontal: 10,
     backgroundColor: '#fff',
   },
-  title: {
-    fontSize: 24,
-    fontWeight: 'bold',
-    marginBottom: 20,
-    textAlign: 'center',
+  notesContainer: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
   },
-  item: {
+  note: {
+    fontSize: 16,
+    marginBottom: 10,
+  },
+  inputContainer: {
+    position: 'absolute',
+    bottom: 60,
+    width: '100%',
+    flexDirection: 'row',
+    justifyContent: 'space-around',
+    alignItems: 'center',
+  },
+  input: {
+    paddingVertical: 15,
+    paddingHorizontal: 15,
     backgroundColor: '#f9c2ff',
-    padding: 20,
-    marginVertical: 8,
-    marginHorizontal: 16,
-    borderRadius: 10,
+    borderRadius: 60,
+    borderColor: '#C0C0C0',
+    borderWidth: 1,
+    width: 250,
   },
-  itemText: {
-    fontSize: 18,
+  addButton: {
+    width: 60,
+    height: 60,
+    backgroundColor: '#f9c2ff',
+    borderRadius: 60,
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderColor: '#C0C0C0',
+    borderWidth: 1,
+  },
+  addButtonText: {
+    fontSize: 24,
   },
 });
 
