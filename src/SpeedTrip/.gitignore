@@ -71,3 +71,5 @@ node_modules/
 
 # Files to ignore specifically as binary
 *.bin
+
+.expo
