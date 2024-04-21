@@ -4436,6 +4436,11 @@ expo-modules-core@^1.5.11, expo-modules-core@1.11.13:
   dependencies:
     invariant "^2.2.4"
 
+expo-status-bar@^1.11.1:
+  version "1.11.1"
+  resolved "https://registry.npmjs.org/expo-status-bar/-/expo-status-bar-1.11.1.tgz"
+  integrity sha512-ddQEtCOgYHTLlFUe/yH67dDBIoct5VIULthyT3LRJbEwdpzAgueKsX2FYK02ldh440V87PWKCamh7R9evk1rrg==
+
 expo@*, expo@^50.0.17:
   version "50.0.17"
   resolved "https://registry.npmjs.org/expo/-/expo-50.0.17.tgz"
