@@ -7,6 +7,7 @@ import {
   TouchableOpacity,
   View,
   Keyboard,
+  Text
 } from 'react-native';
 
 // Note component to render individual note items
