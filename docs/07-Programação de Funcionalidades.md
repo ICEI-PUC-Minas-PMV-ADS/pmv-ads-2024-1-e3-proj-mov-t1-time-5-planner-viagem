@@ -17,6 +17,8 @@
   - Evidências: [Acesse aqui](./img/teste-expo-isaac.png)
 
 - Terceira Etapa
+  - Envidências: [Acesse aqui](src/SpeedTrip/screens/NotesManagementScreen.js)
+  - Observações: Durante essa etapa, iniciei o desenvolvimento da tela de gerenciamento de notas, que faz parte do requisito funcional 006. Ademais, iniciei o desenvolvimento da tela com as listas de gerenciamento, além de funções para adicionar itens a essa lista. Conseguinte, também coloquei funções para editar, excluir e renderizar os itens para a flatlist.
 
 ## Juliane Rodrigues Ferreira
 
