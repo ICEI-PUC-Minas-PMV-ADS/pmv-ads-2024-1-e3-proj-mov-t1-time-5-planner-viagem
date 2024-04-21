@@ -57,6 +57,8 @@
   - Evidências: [Acesse aqui](./img/projeto-expo-maria-fernanda.png)
 
 - Terceira Etapa
+  - Envidências: [Acesse aqui](https://youtu.be/bV8LSNVcBBs?feature=shared)
+  - Observações: Durante essa etapa, iniciei o desenvolvimento da tela de Registro de Despesas, que faz parte do requisito funcional 011. Além do layout inicial, inciei o desenvolvimento da funcionalidade de Adicionar e somar as despesas.
 
 ## Weglesson de Moura Silva
 
