@@ -16,6 +16,7 @@ export default function App() {
         <Screen name="Notas/Listas" component={NotesListScreen} />
         <Screen name="Despesas" component={DespesasScreen} />
         <Screen name="CriarDespesas" component={CriarDespesasScreen} />
+        <Screen name="GerenciamentoNotas" component={NotesManagementScreen} />
       </Navigator>
     </NavigationContainer>
   );
