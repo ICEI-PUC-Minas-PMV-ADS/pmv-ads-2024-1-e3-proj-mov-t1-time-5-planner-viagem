@@ -30,8 +30,8 @@
   - Evidências: [Acesse aqui](./img/expo%20juliane.png)
 
 - Terceira Etapa
-  - Evidências: [Acesse aqui](./img/evid_notas_transporte.png)
-  - Observações: Durante o processo encontrei dificuldade em rodar o codigo na maquina local, por esse motivo a evidência desta etapa ainda se encontra em formato web.
+  - Evidências: [Acesse aqui](./img/evid_notas_transporte.png) | [Erro 1](./img/ju%20-%20evidencia%20erro%2020-04.jpeg) | [Erro 2](./img/ju%20-%20evidencia%20erro%2023-04.png)
+  - Observações: Durante essa etapa iniciei o desenvolvimento da tela de notas sobre transporte (RF-008), ao longo do processo encontrei dificuldade em rodar o código em máquina local, apresentaram erros que não consegui solucionar até o momento, por esse motivo a evidência desta etapa ainda se encontra em web e não localmente como os demais.
 
 ## Marcos Henrique Aguiar França
 
