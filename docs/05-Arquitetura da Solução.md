@@ -67,9 +67,27 @@ Definição de como o software é estruturado em termos dos componentes que faze
 
 ## Tecnologias Utilizadas
 
-Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
+### Tecnologias Envolvidas:
 
-Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
+- **React Native**: Framework para desenvolvimento de aplicativos móveis multiplataforma.
+- **SQLite**: Banco de dados relacional embutido para armazenamento local de dados.
+- **React Native CLI**: Ferramenta de linha de comando para criar, construir e gerenciar projetos React Native.
+- **Visual Studio Code (VSCode)**: IDE de desenvolvimento.
+- **GitHub**: Plataforma de hospedagem de código-fonte e controle de versão usando o Git.
+
+### Linguagens e Frameworks:
+
+- **JavaScript/TypeScript**: Linguagem principal para desenvolvimento de aplicativos React Native.
+- **SQL**: Linguagem de consulta estruturada para interação com o banco de dados SQLite.
+
+### Ferramentas e Bibliotecas:
+
+- **React Native**: Biblioteca JavaScript para criar interfaces de usuário.
+- **SQLite3 (ou outra biblioteca SQLite para React Native)**: Para interagir com o banco de dados SQLite no aplicativo React Native.
+- **React Navigation**: Biblioteca para gerenciar a navegação entre telas no aplicativo React Native.
+- **Visual Studio Code**: IDE de desenvolvimento com suporte a JavaScript/TypeScript e extensões para React Native.
+- **Git**: Sistema de controle de versão distribuído para gerenciamento de código-fonte.
+- **GitHub Desktop (opcional)**: Interface gráfica para gerenciar repositórios Git hospedados no GitHub.
 
 ## Hospedagem
 
