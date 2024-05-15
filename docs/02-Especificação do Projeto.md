@@ -118,7 +118,7 @@ A análise da situação atual destaca a complexidade e fragmentação do proces
 ## Descrição geral da proposta
 A proposta consiste no desenvolvimento de um aplicativo de planejamento de viagens, focado em tornar o processo de organização de viagens mais simples, eficiente e personalizado. O sistema visa resolver os desafios comuns enfrentados pelos viajantes, como a complexidade do planejamento, a gestão do orçamento e a personalização da experiência de viagem.
 
-<img src="./img/docs/img/Untitled.png">
+<img src="./img/Untitled.png">
   
 ## Indicadores de Desempenho
 
