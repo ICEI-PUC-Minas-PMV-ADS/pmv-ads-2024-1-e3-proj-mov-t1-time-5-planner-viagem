@@ -97,15 +97,20 @@ Um aplicativo de planejamento de viagens é extremamente útil pelas seguintes r
 
 **1. Facilitação do Planejamento de Atividades:**
 - A ferramenta centraliza todas as etapas do planejamento de uma viagem, desde a escolha do destino até a organização do roteiro diário. Isso simplifica o processo e torna mais fácil para os viajantes gerenciarem suas atividades de maneira eficiente.
-**2.  Redução do Tempo de Planejamento:**
+
+**2. Redução do Tempo de Planejamento:**
 - Automatizando tarefas repetitivas e fornecendo recomendações personalizadas, o software reduz significativamente o tempo necessário para planejar uma viagem. Isso é especialmente útil para viajantes frequentes e de negócios que têm pouco tempo disponível.
-**3.  Controle do Orçamento:**
+
+**3. Controle do Orçamento:**
 - O software permite que os viajantes definam e acompanhem seu orçamento em tempo real, oferecendo alertas e relatórios detalhados de despesas. Isso ajuda a evitar gastos excessivos e a manter a viagem dentro dos limites financeiros planejados.
-**4.  Redução do Estresse e Frustração:**
+
+**4. Redução do Estresse e Frustração:**
 - Ao simplificar e organizar o processo de planejamento, o software diminui o estresse e a frustração frequentemente associados a esta tarefa, resultando em uma experiência de viagem mais agradável e tranquila.
-**5.  Acompanhamento em Tempo Real:**
+
+**5. Acompanhamento em Tempo Real:**
 - Recursos de monitoramento em tempo real permitem que os viajantes ajustem seus planos conforme necessário durante a viagem, lidando de maneira proativa com imprevistos e mudanças de última hora.
-**6.  Aumento da Autonomia:**
+
+**6. Aumento da Autonomia:**
 - Como apontado por pesquisas, os viajantes contemporâneos buscam maior autonomia no planejamento de suas viagens. A solução tecnológica proporciona as ferramentas necessárias para que os usuários possam planejar suas viagens de maneira independente e personalizada.
 
 A análise da situação atual destaca a complexidade e fragmentação do processo de planejamento de viagens, indicando uma forte demanda por uma solução integrada e personalizada. O desenvolvimento de um software que atenda a essas necessidades pode transformar uma experiência potencialmente estressante em um processo simplificado, eficiente e agradável, proporcionando aos viajantes uma ferramenta poderosa para otimizar suas jornadas.
