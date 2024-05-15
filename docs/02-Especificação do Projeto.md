@@ -114,6 +114,11 @@ Um aplicativo de planejamento de viagens é extremamente útil pelas seguintes r
 - Como apontado por pesquisas, os viajantes contemporâneos buscam maior autonomia no planejamento de suas viagens. A solução tecnológica proporciona as ferramentas necessárias para que os usuários possam planejar suas viagens de maneira independente e personalizada.
 
 A análise da situação atual destaca a complexidade e fragmentação do processo de planejamento de viagens, indicando uma forte demanda por uma solução integrada e personalizada. O desenvolvimento de um software que atenda a essas necessidades pode transformar uma experiência potencialmente estressante em um processo simplificado, eficiente e agradável, proporcionando aos viajantes uma ferramenta poderosa para otimizar suas jornadas.
+
+## Descrição geral da proposta
+A proposta consiste no desenvolvimento de um aplicativo de planejamento de viagens, focado em tornar o processo de organização de viagens mais simples, eficiente e personalizado. O sistema visa resolver os desafios comuns enfrentados pelos viajantes, como a complexidade do planejamento, a gestão do orçamento e a personalização da experiência de viagem.
+
+<img src="./img/docs/img/Untitled.png">
   
 ## Indicadores de Desempenho
 
