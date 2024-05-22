@@ -1,116 +1,154 @@
 import React, {useState} from 'react';
 import {
-  KeyboardAvoidingView,
-  Platform,
+  View,
+  Text,
   StyleSheet,
+  FlatList,
   TextInput,
   TouchableOpacity,
-  View,
-  Keyboard,
-  Text
+  KeyboardAvoidingView,
+  Platform,
+  Image,
 } from 'react-native';
+import 'react-native-get-random-values';
+import {v4 as uuidv4} from 'uuid';
+import NotaItem from '../components/NotaItem';
 
-// Note component to render individual note items
-const Note = ({text, onPress}) => {
-  return (
-    <TouchableOpacity onPress={onPress}>
-      <Text style={styles.note}>{text}</Text>
-    </TouchableOpacity>
-  );
-};
+const NotasListasScreen = () => {
+  const [notas, setNotas] = useState([]);
+  const [novaNotaTexto, setNovaNotaTexto] = useState('');
+  const [notaEditando, setNotaEditando] = useState(null);
 
-const NotesListScreen = () => {
-  const [noteText, setNoteText] = useState('');
-  const [notes, setNotes] = useState([]);
-
-  // Add a new note to the list
-  const addNote = () => {
-    Keyboard.dismiss();
-    if (noteText.trim() !== '') {
-      setNotes([...notes, noteText]);
-      setNoteText('');
+  const adicionarNota = () => {
+    if (notaEditando) {
+      setNotas(
+        notas.map(nota =>
+          nota.id === notaEditando.id ? {...nota, texto: novaNotaTexto} : nota,
+        ),
+      );
+      setNotaEditando(null);
+    } else {
+      if (novaNotaTexto.trim() !== '') {
+        const novaNota = {id: uuidv4(), texto: novaNotaTexto};
+        setNotas([...notas, novaNota]);
+        setNovaNotaTexto('');
+      }
     }
+    limparInput();
   };
 
-  // Delete a note from the list
-  const deleteNote = index => {
-    const updatedNotes = [...notes];
-    updatedNotes.splice(index, 1);
-    setNotes(updatedNotes);
+  const excluirNota = notaId => {
+    setNotas(notas.filter(nota => nota.id !== notaId));
+  };
+
+  const editarNota = nota => {
+    setNotaEditando(nota);
+    setNovaNotaTexto(nota.texto);
+  };
+
+  const limparInput = () => {
+    setNovaNotaTexto('');
   };
 
   return (
-    <View style={styles.container}>
-      <View style={styles.notesContainer}>
-        {notes.map((note, index) => (
-          <Note key={index} text={note} onPress={() => deleteNote(index)} />
-        ))}
-      </View>
-      <KeyboardAvoidingView
-        behavior={Platform.OS === 'ios' ? 'padding' : 'height'}
-        style={styles.inputContainer}>
+    <KeyboardAvoidingView
+      style={styles.container}
+      behavior={Platform.OS === 'ios' ? 'padding' : 'height'}>
+      <View style={styles.inputContainer}>
         <TextInput
           style={styles.input}
-          placeholder={'Add a note'}
-          value={noteText}
-          onChangeText={text => setNoteText(text)}
+          value={novaNotaTexto}
+          onChangeText={text => setNovaNotaTexto(text)}
+          placeholder="Digite sua nota"
         />
-        <TouchableOpacity onPress={addNote}>
-          <View style={styles.addButton}>
-            <Text style={styles.addButtonText}>+</Text>
-          </View>
+        <TouchableOpacity style={styles.addButton} onPress={adicionarNota}>
+          <Text style={styles.addButtonText}>
+            {notaEditando ? 'Salvar' : 'Adicionar'}
+          </Text>
         </TouchableOpacity>
-      </KeyboardAvoidingView>
-    </View>
+      </View>
+      <FlatList
+        style={styles.notasContainer}
+        data={notas}
+        renderItem={({item}) => (
+          <NotaItem
+            nota={item}
+            onDelete={excluirNota}
+            onEdit={editarNota}
+            deleteIcon={{name: 'trash', size: 24, color: 'red'}}
+            editIcon={{name: 'edit', size: 24, color: 'blue'}}
+          />
+        )}
+        keyExtractor={item => item.id}
+        ListEmptyComponent={() => (
+          <View style={styles.emptyContainer}>
+            <Image
+              source={require('../assets/quadro-branco.png')}
+              style={styles.emptyImage}
+            />
+            <Text style={[styles.text, styles.emptyText]}>
+              Não há notas. Fique à vontade para adicionar.
+            </Text>
+          </View>
+        )}
+        contentContainerStyle={styles.flatListContent}
+      />
+    </KeyboardAvoidingView>
   );
 };
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    paddingTop: 20,
-    paddingHorizontal: 10,
-    backgroundColor: '#fff',
-  },
-  notesContainer: {
-    flex: 1,
     justifyContent: 'center',
-    alignItems: 'center',
-  },
-  note: {
-    fontSize: 16,
-    marginBottom: 10,
+    paddingVertical: 20,
   },
   inputContainer: {
-    position: 'absolute',
-    bottom: 60,
-    width: '100%',
     flexDirection: 'row',
-    justifyContent: 'space-around',
     alignItems: 'center',
+    marginBottom: 20,
+    paddingHorizontal: 20,
   },
   input: {
-    paddingVertical: 15,
-    paddingHorizontal: 15,
-    backgroundColor: '#f9c2ff',
-    borderRadius: 60,
-    borderColor: '#C0C0C0',
-    borderWidth: 1,
-    width: 250,
+    flex: 1,
+    padding: 10,
+    borderBottomWidth: 1,
+    borderBottomColor: '#ccc',
   },
   addButton: {
-    width: 60,
-    height: 60,
-    backgroundColor: '#f9c2ff',
-    borderRadius: 60,
-    justifyContent: 'center',
-    alignItems: 'center',
-    borderColor: '#C0C0C0',
-    borderWidth: 1,
+    marginLeft: 10,
+    padding: 10,
+    backgroundColor: 'blue',
+    borderRadius: 5,
   },
   addButtonText: {
+    color: 'white',
+    fontSize: 16,
+  },
+  notasContainer: {
+    flex: 1,
+    paddingHorizontal: 20,
+  },
+  flatListContent: {
+    paddingBottom: 100,
+  },
+  emptyContainer: {
+    alignItems: 'center',
+  },
+  emptyImage: {
+    width: 100,
+    height: 100,
+    marginBottom: 20,
+  },
+  emptyText: {
+    textAlign: 'center',
+    color: '#888',
+  },
+  text: {
     fontSize: 24,
+    fontWeight: '400',
+    alignItems: 'center',
   },
 });
 
-export default NotesListScreen;
+export default NotasListasScreen;

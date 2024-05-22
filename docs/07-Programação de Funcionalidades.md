@@ -71,5 +71,15 @@
   - Evidências: [Acesse aqui](https://youtu.be/74XHptVfHRQ);
 
 - Terceira Etapa
+
   - Evidências: [Acesse aqui](https://youtu.be/5rUu4EZr-zc)
   - Observações: Durante essa etapa, iniciei o desenvolvimento da tela de notas de viagem, que faz parte do requisito funcional 009. Além do layout inicial, inciei o desenvolvimento da funcionalidade de adicionar e remover notas.
+
+- Quarta Etapa
+  - Evidências: [Acesse aqui](https://youtu.be/CaPnrghFWxk)
+  - Observações: Durante essa etapa, continuei o desenvolvimento da tela de notas de viagem, que faz parte do requisito funcional 009.
+    - Correções de layout, como posicionamento e tamanho dos elementos na tela e inserção de assets ;
+    - Adição da funcionalidade de adicionar, remover e editar uma nota. Além da possiblidade de marcar como feita.
+    - Testes realizados com usários.
+    - Ponto para serem tratados:
+      - Existe um problema que ainda não consegui resolver que está relacionada a renderização de icones de edição, remoção e checkbox, os mesmos não estão sendo renderizados conforme esperado.

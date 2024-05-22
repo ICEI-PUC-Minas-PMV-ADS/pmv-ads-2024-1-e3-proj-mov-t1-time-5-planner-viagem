@@ -6,28 +6,25 @@ export default function HomeScreen({navigation}) {
       <Text style={styles.text}>Home Screen</Text>
       <Button
         title="Notas e Listas"
-        onPress={() => navigation.navigate('Notas/Listas')}
+        onPress={() => navigation.navigate('NotasListas')}
       />
-      <View style={{ height: 20 }} />
+      <View style={{height: 20}} />
       <Button
         title="Despesas"
         onPress={() => navigation.navigate('Despesas')}
       />
-      <View style={{ height: 20 }} />
+      <View style={{height: 20}} />
       <Button
         title="Gerenciamento de Notas"
         onPress={() => navigation.navigate('GerenciamentoNotas')}
       />
-      <View style={{ height: 20 }} />
+      <View style={{height: 20}} />
       <Button
         title="Cadastrar Usuário"
-        onPress={() => navigation.navigate('CadastrarUsuario')}
+        onPress={() => navigation.navigate('Cadastrar')}
       />
-      <View style={{ height: 20 }} />
-      <Button
-        title="Login"
-        onPress={() => navigation.navigate('Login')}
-      />
+      <View style={{height: 20}} />
+      <Button title="Login" onPress={() => navigation.navigate('Login')} />
     </View>
   );
 }
