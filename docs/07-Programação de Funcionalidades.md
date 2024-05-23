@@ -80,6 +80,8 @@
   - Observações: Durante essa etapa, continuei o desenvolvimento da tela de notas de viagem, que faz parte do requisito funcional 009.
     - Correções de layout, como posicionamento e tamanho dos elementos na tela e inserção de assets ;
     - Adição da funcionalidade de adicionar, remover e editar uma nota. Além da possiblidade de marcar como feita.
-    - Testes realizados com usários.
+    - Testes realizados:
+      - Registro de testes de software: [Acesse aqui](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t1-time-5-planner-viagem/blob/main/docs/09-Registro%20de%20Testes%20de%20Software.md) (TS-007 à TS-009)
+      - Registro de testes de usabilidade: [Acesse aqui](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t1-time-5-planner-viagem/blob/main/docs/10-Plano%20de%20Testes%20de%20Usabilidade.md#teste-de-usabilidade---listas-personalizadas-de-itens-para-viagem)
     - Ponto para serem tratados:
       - Existe um problema que ainda não consegui resolver que está relacionada a renderização de icones de edição, remoção e checkbox, os mesmos não estão sendo renderizados conforme esperado.
