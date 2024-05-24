@@ -8,6 +8,7 @@ import CriarDespesasScreen from './screens/CriarDespesasScreen';
 import NotesManagementScreen from './screens/NotesManagementScreen';
 import LoginScreen from './screens/LoginScreen';
 import CadastrarScreen from './screens/CadastrarScreen';
+import NotasTransporteScreen from './screens/NotasTransporteScreen';
 
 const {Navigator, Screen} = createNativeStackNavigator();
 
@@ -22,6 +23,7 @@ export default function App() {
         <Screen name="GerenciamentoNotas" component={NotesManagementScreen} />
         <Screen name="Login" component={LoginScreen} />
         <Screen name="CadastrarUsuario" component={CadastrarScreen} />
+        <Screen name="NotasTransporte" component={NotasTransporteScreen} />
       </Navigator>
     </NavigationContainer>
   );
