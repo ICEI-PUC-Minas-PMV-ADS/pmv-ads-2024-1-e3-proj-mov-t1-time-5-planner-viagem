@@ -16,6 +16,7 @@ Cada cenário de teste segue o seguinte modelo:
 | ---------- | ------------------------------------------------------------------------------------------------------------ | ------------------ |
 | 02/04/2024 | - Criação do Plano de testes<br>- Criação dos Cenários de Testes e seus casos de teste                       | Matheus Guimarães  |
 | 22/05/2024 | - Atualização do plano de testes<br>- Adição de cenário de Teste: Listas Personalizadas de Itens para Viagem | Weglesson de Moura |
+| 24/05/2024 | - Atualização do plano de testes<br>- Adição de cenário de Teste: Registro de Despesas                        | Maria Fernanda Silva |
 |            |                                                                                                              |                    |
 
 ## Cenário de Teste: Cadastro de usuário com sucesso
@@ -258,3 +259,46 @@ Cada cenário de teste segue o seguinte modelo:
 - Clicar no círculo ao lado da nota
 - Validar que o texto da nota foi riscado
 - Validar que o círculo alterou de cor
+
+## Cenário de Teste: Registro de Despesas
+
+**Descrição:**
+
+- Esse cenário almeja realizar a inserção, deleção e edição de despesas.
+
+**Premissas:**
+
+- Acesso ao aplicativo
+- Usuário logado no aplicativo
+
+**CT 01 - Adicionar despesa**
+
+- Acessar a página Despesas
+- Clicar no ícone "+"
+- Acessar a página Criar Despesas
+- Inserir um texto no campo "Descrição"
+- Inserir um valor no campo "Insira um valor"
+- Clicar no botão "Adicionar Despesas"
+- Validar que a despesa foi adicionada à pagina Despesas
+
+**CT 02 - Editar despesa**
+
+- Após adicionar uma despesa
+- Clicar no ícone de "lápis" referente à despesa adicionada
+- Validar que o campo "Descrição" foi preenchido com o texto da descrição adicionada anteriormente
+- Validar que o campo "Insira um valor" foi preenchido com o valor adicionado anteriormente
+- Alterar a descrição ou o valor e clicar no botão "Adicionar"
+- Validar que a despesa foi atualizada
+
+**CT 03 - Remover despesa**
+
+- Após adicionar uma despesa
+- Clicar no ícone de "lixeira" referente à despesa adicionada
+- Validar que a despesa foi removida
+
+**CT 04 - Soma das despesas**
+
+- Após adicionar duas ou mais despesas
+- Validar que a soma exibida é a soma exata das despesas registradas.
+
+

@@ -33,3 +33,34 @@
 - Remoção de notas foi direta e intuitiva.
 - Senti falta de uma opção para classificar as notas por prioridade ou categoria.
 - No geral, gostei da experiência e consideraria usar o aplicativo para minhas viagens futuras.
+
+## Registro de Testes de Usabilidade - Registro de Despesas
+
+### Participante 1
+
+**Feedback:**
+
+- Acesso ao aplicativo foi fácil.
+- Registrar uma despesa foi fácil e intuitivo, o campo "Insira o valor" e o botão "Adicionar Despesa" estavam bem visíveis.
+- Editar uma despesa foi simples e eficiente, com a opção de edição acessível diretamente na lista de despesas.
+- A soma total das despesas é atualizada imediatamente, proporcionando um feedback visual imediato ao adicionar ou remover despesas.
+- A experiência geral de usar a funcionalidade de despesas é positiva, contribuindo para um melhor controle financeiro.
+
+### Participante 2
+
+**Feedback:**
+
+- O processo de login foi eficaz.
+- Excluir uma despesa foi direto e rápido, o ícone de "lixeira" era claro e compreensível.
+- Na tela de Editar Despesas seria melhor o botão fosse "Salvar" ao invés de "Adicionar".
+- O processo de adicionar despesas é rápido e sem complicações, permitindo um registro eficiente das despesas.
+- O aplicativo permite adicionar descrição às despesas, o que ajuda a contextualizar cada gasto.
+
+### Participante 3
+
+**Feedback:**
+
+- Excluir uma despesa poderia ter uma confirmação adicional, para evitar exclusões acidentais.
+- Não há uma opção para categorizar despesas, o que dificultaria o gerenciamento de despesas em diferentes categorias.
+- A tela não oferece feedback suficiente quando não há despesas registradas, uma mensagem de orientação ou instruções adicionais seriam úteis.
+- O layout da tela de despesas é limpo e organizado, facilitando a visualização e o acompanhamento das despesas adicionadas

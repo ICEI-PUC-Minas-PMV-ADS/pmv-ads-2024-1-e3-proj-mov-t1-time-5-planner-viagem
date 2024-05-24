@@ -63,6 +63,17 @@
   - Evidências: [Acesse aqui](https://youtu.be/bV8LSNVcBBs?feature=shared)
   - Observações: Durante essa etapa, iniciei o desenvolvimento da tela de Registro de Despesas, que faz parte do requisito funcional 011. Além do layout inicial, inciei o desenvolvimento da funcionalidade de Adicionar e somar as despesas.
 
+- Quarta Etapa
+  - Evidências: [Acesse aqui](https://youtu.be/wqn1NghtUQM?feature=shared)
+  - Observações: Durante essa etapa, continuei o desenvolvimento da tela Registro de Despesas, que faz parte do requisito funcional 011.
+    - Correções de layout, como posicionamento e tamanho dos elementos na tela.
+    - Adição das funcionalidades adicionar, remover e editar uma despesa. Além de somar todas as despesas adicionadas.
+    - Testes realizados:
+      - Registro de testes de software: [Acesse aqui](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t1-time-5-planner-viagem/blob/main/docs/09-Registro%20de%20Testes%20de%20Software.md) (TS-007 à TS-009)
+      - Registro de testes de usabilidade: [Acesse aqui](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t1-time-5-planner-viagem/blob/main/docs/10-Plano%20de%20Testes%20de%20Usabilidade.md#teste-de-usabilidade---listas-personalizadas-de-itens-para-viagem)
+    - Ponto para serem tratados:
+      - Existe um problema que ainda não consegui resolver que está relacionada a renderização de icones de edição e exclusão os mesmos não estão sendo renderizados conforme esperado.
+
 ## Weglesson de Moura Silva
 
 - Segunda Etapa
