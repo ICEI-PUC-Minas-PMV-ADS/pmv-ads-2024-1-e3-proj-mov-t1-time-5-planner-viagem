@@ -12,6 +12,14 @@ const image = {
   uri: 'https://www.melhoresdestinos.com.br/wp-content/uploads/2021/09/praia-carneiros-2.jpeg',
 };
 
+
+//import axios from 'axios';
+
+  //Rota de cadastro
+  //axios.post("URL",{user,email,password})
+  //.then(()=>{})
+  //.catch((err)=>{});
+
 export default function CadastrarScreen() {
   return (
     <View style={styles.container}>
