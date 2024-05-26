@@ -33,6 +33,14 @@
   - Evidências: [Acesse aqui](./img/evid_notas_transporte.png) | [Erro 1](./img/ju%20-%20evidencia%20erro%2020-04.jpeg) | [Erro 2](./img/ju%20-%20evidencia%20erro%2023-04.png)
   - Observações: Durante essa etapa iniciei o desenvolvimento da tela de notas sobre transporte (RF-008), ao longo do processo encontrei dificuldade em rodar o código em máquina local, apresentaram erros que não consegui solucionar até o momento, por esse motivo a evidência desta etapa ainda se encontra em web e não localmente como os demais.
 
+- Quarta Etapa
+  - Evidências: [Acesse aqui](./img/ju%20-%20evidência_etapa4.png) | [Arquivo](../src/SpeedTrip/screens/NotasTransporteScreen.js)
+  - Observações: Durante essa etapa, após resolver os impedimentos que estavam ocorrendo na etapa anterior, continuei o desenvolvimento do RF-008 localmente.
+    - Adição da funcionalidade de adicionar, remover e editar uma nota.
+    - Ponto para serem tratados:
+      - O layout precisa ser padronizado com as demais telas e testes precisam ser feitos.
+
+
 ## Marcos Henrique Aguiar França
 
 - Segunda Etapa
