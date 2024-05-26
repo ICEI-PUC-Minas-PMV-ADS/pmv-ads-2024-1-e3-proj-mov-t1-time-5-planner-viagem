@@ -24,7 +24,7 @@
 
 - Quarta Etapa
   - Evidências: [Acesse aqui](src/SpeedTrip/screens/NotesManagementScreen.js)
-  - Observações:
+  - Observações: Durante essa etapa, ocorreram algumas atualizações do Expo e seus componentes e desde então não consigo rodar o projeto com Expo. Atualizei no projeto as configurações já com as novas versões, mas não obtive sucesso ao tentar executar. Posto isto, não há alterações nas funcionalidades dessa tela até o momento.
  
 ## Juliane Rodrigues Ferreira
 
