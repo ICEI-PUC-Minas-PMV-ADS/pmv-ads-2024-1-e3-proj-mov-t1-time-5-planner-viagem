@@ -2,7 +2,7 @@ import React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import HomeScreen from './screens/HomeScreen';
-import NotesListScreen from './screens/NotasListasScreen';
+import NotasListasScreen from './screens/NotasListasScreen';
 import DespesasScreen from './screens/DespesasScreen';
 import CriarDespesasScreen from './screens/CriarDespesasScreen';
 import NotesManagementScreen from './screens/NotesManagementScreen';
@@ -10,22 +10,29 @@ import LoginScreen from './screens/LoginScreen';
 import CadastrarScreen from './screens/CadastrarScreen';
 import NotasTransporteScreen from './screens/NotasTransporteScreen';
 
-const {Navigator, Screen} = createNativeStackNavigator();
+const Stack = createNativeStackNavigator();
 
 export default function App() {
   return (
     <NavigationContainer>
-      <Navigator initialRouteName="Home">
-        <Screen name="Home" component={HomeScreen} />
-        <Screen name="Notas/Listas" component={NotesListScreen} />
-        <Screen name="Despesas" component={DespesasScreen} />
-        <Screen name="CriarDespesas" component={CriarDespesasScreen} />
-        <Screen name="GerenciamentoNotas" component={NotesManagementScreen} />
-        <Screen name="Login" component={LoginScreen} />
-        <Screen name="CadastrarUsuario" component={CadastrarScreen} />
-        <Screen name="NotasTransporte" component={NotasTransporteScreen} />
-      </Navigator>
+      <Stack.Navigator initialRouteName="Home">
+        <Stack.Screen name="Home" component={HomeScreen} />
+        <Stack.Screen
+          name="NotasListas"
+          component={NotasListasScreen}
+          options={{title: 'Notas/Listas'}}
+        />
+        <Stack.Screen name="Despesas" component={DespesasScreen} />
+        <Stack.Screen name="CriarDespesas" component={CriarDespesasScreen} />
+        <Stack.Screen
+          name="GerenciamentoNotas"
+          component={NotesManagementScreen}
+          options={{title: 'Gerenciamento de Notas'}}
+        />
+        <Stack.Screen name="Login" component={LoginScreen} />
+        <Stack.Screen name="NotasTransporte" component={NotasTransporteScreen} />
+        <Stack.Screen name="Cadastrar" component={CadastrarScreen} />
+      </Stack.Navigator>
     </NavigationContainer>
   );
 }
-
