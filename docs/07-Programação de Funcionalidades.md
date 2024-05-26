@@ -63,6 +63,11 @@
   - Evidências: [Acesse aqui](./matheus/evidencia/evidencia-mth.jpg)
 
 - Terceira Etapa
+   - Observações: Continuei desenvolvedo a página de cadastro de usuários da aplicação, alinhando os botões que acabaram ficando um pouco fora do eixo central.
+   - Evidências: Não realizei evidências pois a página continua praticamente igual à evidência anterior, apenas fiz um realinhamento dos botôes e uma pequena mudança no tamanho da imagem de background.
+
+- Quarta Etapa
+   - Observações: Durante essa etapa não realizei mudanças visuais na tela do aplicativo, apenas criei o esquema do script de requisição do formulário de cadastro, não completei e não subi ainda devido à ausência do nosso "backend" no momento, ainda estamos configurando as apis.
 
 ## Maria Fernanda Silva Salomão
 
