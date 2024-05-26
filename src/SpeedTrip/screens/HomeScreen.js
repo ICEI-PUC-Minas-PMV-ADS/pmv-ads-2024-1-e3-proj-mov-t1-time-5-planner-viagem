@@ -23,6 +23,11 @@ export default function HomeScreen({navigation}) {
         title="Cadastrar Usuário"
         onPress={() => navigation.navigate('Cadastrar')}
       />
+      <View style={{ height: 20 }} />
+      <Button
+        title="Notas sobre Transporte"
+        onPress={() => navigation.navigate('NotasTransporte')}
+      />
       <View style={{height: 20}} />
       <Button title="Login" onPress={() => navigation.navigate('Login')} />
     </View>
