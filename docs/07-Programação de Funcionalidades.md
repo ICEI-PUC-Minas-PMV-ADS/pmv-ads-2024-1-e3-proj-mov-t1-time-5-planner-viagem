@@ -68,7 +68,8 @@
 
 - Quarta Etapa
    - Observações: Durante essa etapa não realizei mudanças visuais na tela do aplicativo, apenas criei o esquema do script de requisição do formulário de cadastro, não completei e não subi ainda devido à ausência do nosso "backend" no momento, ainda estamos configurando as apis.
-   - Evidências: [Acesse aqui](./img/evidencia-mth-2.png)
+   - Evidência 1: [Acesse aqui](./img/evidencia-mth-2.png)
+   - Evidência 2: [Acesse aqui](./img/evidencia-mth-1.png)
 
 ## Maria Fernanda Silva Salomão
 
