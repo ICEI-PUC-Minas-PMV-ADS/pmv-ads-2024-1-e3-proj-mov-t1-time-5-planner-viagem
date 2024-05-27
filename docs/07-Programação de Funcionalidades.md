@@ -11,6 +11,10 @@
   - Evidências: [Foto](./img/proof-of-execution-daniel2.png) | [Arquivo](../src/SpeedTrip/screens/LoginScreen.js)
   - Observações: Durante essa etapa, iniciei o desenvolvimento da tela de login, que faz parte do requisito funcional 002. Ademais, corrigi erros na aplicação.
 
+- Quarta Etapa
+  - Evidências: [Acesse aqui](./img/proof-of-execution-daniel3.png) | [Arquivo](../src/SpeedTrip/screens/LoginScreen.js)
+  - Observações: Tela traduzida para português, adicionado botão para mostrar senha, clicar em input scrolla a tela para o teclado não tampá-lo e o visual foi ajustado para o definido no Figma.
+
 ## Isaac Heder Ferreira Paulo
 
 - Segunda Etapa
@@ -25,7 +29,7 @@
 - Quarta Etapa
   - Evidências: [Acesse aqui](src/SpeedTrip/screens/NotesManagementScreen.js)
   - Observações: Durante essa etapa, ocorreram algumas atualizações do Expo e seus componentes e desde então não consigo rodar o projeto com Expo. Atualizei no projeto as configurações já com as novas versões, mas não obtive sucesso ao tentar executar. Posto isto, não há alterações nas funcionalidades dessa tela até o momento.
- 
+
 ## Juliane Rodrigues Ferreira
 
 - Segunda Etapa
