@@ -1,21 +1,23 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import {
-  KeyboardAvoidingView,
-  Platform,
   StyleSheet,
   TextInput,
   TouchableOpacity,
   View,
   Text,
-  Keyboard
+  ImageBackground,
+  ScrollView,
+  KeyboardAvoidingView,
+  Platform,
 } from 'react-native';
 
 const LoginScreen = ({ navigation }) => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const [showPassword, setShowPassword] = useState(false);
+  const scrollViewRef = useRef();
 
   const handleLogin = () => {
-    Keyboard.dismiss();
     console.log('Logging in with:', email, password);
     navigation.navigate('Home');
   };
@@ -30,37 +32,60 @@ const LoginScreen = ({ navigation }) => {
     navigation.navigate('Home');
   };
 
+  const toggleShowPassword = () => {
+    setShowPassword(!showPassword);
+  };
+
   return (
     <KeyboardAvoidingView
       behavior={Platform.OS === 'ios' ? 'padding' : 'height'}
       style={styles.container}
-      enabled>
-      <TextInput
-        style={styles.input}
-        placeholder="Email"
-        value={email}
-        onChangeText={setEmail}
-        keyboardType="email-address"
-        autoCapitalize="none"
-      />
-      <TextInput
-        style={styles.input}
-        placeholder="Password"
-        value={password}
-        onChangeText={setPassword}
-        secureTextEntry={true}
-      />
-      <View style={styles.buttonContainer}>
-        <TouchableOpacity onPress={handleLogin} style={styles.button}>
-          <Text style={styles.buttonText}>Login</Text>
-        </TouchableOpacity>
-        <TouchableOpacity onPress={handleCreateAccount} style={styles.button}>
-          <Text style={styles.buttonText}>Create Account</Text>
-        </TouchableOpacity>
-        <TouchableOpacity onPress={handleForgotPassword} style={styles.button}>
-          <Text style={styles.buttonText}>Forgot Password?</Text>
-        </TouchableOpacity>
-      </View>
+    >
+      <ScrollView
+        contentContainerStyle={styles.scrollViewContent}
+        ref={scrollViewRef}
+      >
+        <ImageBackground source={require('../assets/login-screen.png')} resizeMode="cover" style={styles.image}>
+          <View style={styles.header}>
+            <Text style={styles.welcomeText}>Bem Vindo(a) de volta</Text>
+            <Text style={styles.descriptionText}>
+              Continue sua aventura com o SpeedTrip, onde cada passo é planejado e cada processo é registrado.
+            </Text>
+          </View>
+          <View style={styles.formulario}>
+            <Text style={styles.label}>E-mail</Text>
+            <TextInput
+              style={styles.inputForm}
+              placeholder="seu-email@gmail.com"
+              value={email}
+              onChangeText={setEmail}
+              keyboardType="email-address"
+              autoCapitalize="none"
+            />
+            <Text style={styles.label}>Senha</Text>
+            <TextInput
+              style={styles.inputForm}
+              placeholder="sua senha"
+              value={password}
+              onChangeText={setPassword}
+              secureTextEntry={!showPassword}
+              onFocus={() => scrollViewRef.current.scrollToEnd({ animated: true })}
+            />
+            <TouchableOpacity onPress={toggleShowPassword} style={styles.showPasswordContainer}>
+              <Text style={styles.showPasswordText}>Mostrar Senha</Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={handleLogin} style={styles.button}>
+              <Text style={styles.buttonText}>Entrar</Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={handleForgotPassword} style={styles.forgotPasswordButton}>
+              <Text style={styles.forgotPasswordText}>Recupere sua senha</Text>
+            </TouchableOpacity>
+            <TouchableOpacity onPress={handleCreateAccount} style={styles.createAccountButton}>
+              <Text>Sem conta ainda?</Text><Text style={styles.createAccountText}>Cadastre-se agora!</Text>
+            </TouchableOpacity>
+          </View>
+        </ImageBackground>
+      </ScrollView>
     </KeyboardAvoidingView>
   );
 };
@@ -68,36 +93,94 @@ const LoginScreen = ({ navigation }) => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    padding: 20,
     backgroundColor: '#fff',
   },
-  input: {
-    height: 50,
-    width: '90%',
-    marginVertical: 10,
-    padding: 10,
-    borderWidth: 1,
-    borderColor: '#ddd',
-    borderRadius: 5,
-    backgroundColor: '#f0f0f0',
+  scrollViewContent: {
+    flexGrow: 1,
   },
-  buttonContainer: {
-    marginTop: 20,
-    width: '90%',
+  header: {
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginTop: 60,
+  },
+  welcomeText: {
+    fontSize: 24,
+    fontWeight: 'bold',
+    color: 'white',
+    marginBottom: 10,
+  },
+  image: {
+    flex: 1,
+    justifyContent: 'flex-end',
+    width: '100%',
+    alignItems: 'center',
+  },
+  descriptionText: {
+    fontSize: 16,
+    color: 'white',
+    textAlign: 'center',
+    marginBottom: 20,
+    paddingHorizontal: 30,
+  },
+  formulario: {
+    backgroundColor: 'white',
+    width: '100%',
+    paddingTop: 35,
+    paddingBottom: 20,
+    paddingHorizontal: 35,
+    borderRadius: 40,
+    borderBottomEndRadius: 0,
+    borderBottomStartRadius: 0,
+    alignItems: 'center',
+    marginBottom: 0,
+  },
+  label: {
+    alignSelf: 'flex-start',
+    marginBottom: 5,
+    fontSize: 16,
+    color: '#000',
+  },
+  inputForm: {
+    width: '100%',
+    borderColor: '#68a0cf',
+    borderWidth: 2,
+    borderRadius: 6,
+    padding: 10,
+    marginBottom: 15,
+  },
+  showPasswordContainer: {
+    alignItems: 'flex-end',
+    width: '100%',
+    marginBottom: 20,
+  },
+  showPasswordText: {
+    color: '#4e9af1',
+    fontWeight: 'bold',
   },
   button: {
     backgroundColor: '#4e9af1',
     padding: 15,
-    borderRadius: 5,
+    borderRadius: 8,
     alignItems: 'center',
+    width: '100%',
     marginBottom: 10,
   },
   buttonText: {
     color: 'white',
     fontWeight: 'bold',
-  }
+  },
+  forgotPasswordButton: {
+    marginBottom: 10,
+  },
+  forgotPasswordText: {
+    color: '#4e9af1',
+    textDecorationLine: 'underline',
+  },
+  createAccountButton: {},
+  createAccountText: {
+    color: 'green',
+    textDecorationLine: 'underline',
+  },
 });
 
 export default LoginScreen;
