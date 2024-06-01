@@ -1,15 +1,13 @@
-// src/components/TravelRegister.tsx
+import React, { useState } from "react";
+import { Button, StyleSheet, Text, TextInput, View } from "react-native";
 
-import React, { useState } from 'react';
-import { Button, StyleSheet, Text, TextInput, View } from 'react-native';
-
-const TravelRegister: React.FC = () => {
-  const [destination, setDestination] = useState('');
-  const [date, setDate] = useState('');
+const TravelRegister = () => {
+  const [destination, setDestination] = useState("");
+  const [date, setDate] = useState("");
 
   const handleAddTrip = () => {
     // Implementar a lógica para adicionar a viagem
-    console.log('Nova viagem adicionada:', destination, date);
+    console.log("Nova viagem adicionada:", destination, date);
   };
 
   return (
@@ -30,7 +28,11 @@ const TravelRegister: React.FC = () => {
         onChangeText={(text) => setDate(text)}
       />
 
-      <Button title="Adicionar Viagem" style={styles.button} onPress={handleAddTrip} />
+      <Button
+        title="Adicionar Viagem"
+        style={styles.button}
+        onPress={handleAddTrip}
+      />
     </View>
   );
 };
@@ -42,17 +44,17 @@ const styles = StyleSheet.create({
   },
   title: {
     fontSize: 24,
-    fontWeight: 'bold',
+    fontWeight: "bold",
     marginBottom: 20,
   },
   input: {
     padding: 10,
     borderWidth: 1,
-    borderColor: '#ccc',
+    borderColor: "#ccc",
     marginBottom: 10,
   },
   button: {
-    backgroundColor: '#007bff',
+    backgroundColor: "#007bff",
     padding: 10,
   },
 });
