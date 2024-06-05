@@ -9,6 +9,7 @@ import NotesManagementScreen from "./screens/NotesManagementScreen";
 import LoginScreen from "./screens/LoginScreen";
 import CadastrarScreen from "./screens/CadastrarScreen";
 import NotasTransporteScreen from "./screens/NotasTransporteScreen";
+import PrincipalScreen from "./screens/PrincipalScreen";
 
 const Stack = createNativeStackNavigator();
 
@@ -35,6 +36,7 @@ export default function App() {
           component={NotasTransporteScreen}
         />
         <Stack.Screen name="Cadastrar" component={CadastrarScreen} />
+        <Stack.Screen name="Principal" component={PrincipalScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );

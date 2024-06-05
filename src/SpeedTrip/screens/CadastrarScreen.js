@@ -19,13 +19,9 @@ const CadastrarScreen = ({navigation})=>{
   //.then(()=>{})
   //.catch((err)=>{});
 
-  const image = {
-    uri: 'https://www.melhoresdestinos.com.br/wp-content/uploads/2021/09/praia-carneiros-2.jpeg',
-  };
-  
   return (
     <View style={styles.container}>
-      <ImageBackground source={image} resizeMode="cover" style={styles.image}>
+      <ImageBackground source={require('../assets/cadastrarScreen.jpeg')} resizeMode="cover" style={styles.image}>
         <Text style={styles.titleCadastrar}>
           Preencha o formulário abaixo para se cadastrar!
         </Text>
