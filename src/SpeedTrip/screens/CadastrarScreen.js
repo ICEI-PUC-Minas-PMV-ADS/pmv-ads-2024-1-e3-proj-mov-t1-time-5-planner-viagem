@@ -6,21 +6,23 @@ import {
   TextInput,
   View,
   ImageBackground,
+  TouchableOpacity
 } from 'react-native';
 
-const image = {
-  uri: 'https://www.melhoresdestinos.com.br/wp-content/uploads/2021/09/praia-carneiros-2.jpeg',
-};
+const CadastrarScreen = ({navigation})=>{
 
 
-//import axios from 'axios';
+  //import axios from 'axios';
 
   //Rota de cadastro
   //axios.post("URL",{user,email,password})
   //.then(()=>{})
   //.catch((err)=>{});
 
-export default function CadastrarScreen() {
+  const image = {
+    uri: 'https://www.melhoresdestinos.com.br/wp-content/uploads/2021/09/praia-carneiros-2.jpeg',
+  };
+  
   return (
     <View style={styles.container}>
       <ImageBackground source={image} resizeMode="cover" style={styles.image}>
@@ -34,9 +36,9 @@ export default function CadastrarScreen() {
           <TextInput style={styles.inputForm} />
           <Text>Senha</Text>
           <TextInput style={styles.inputForm} />
-          <Button title="Cadastrar" style={styles.formButton} />
+          <Button title="Cadastrar" style={styles.formButton}/>
           <Text style={styles.fazerLogin}>
-            Já tem cadastro? <Text style={styles.linkLogin}>Faça login</Text>
+            Já tem cadastro?<Text style={styles.linkLogin} onPress={()=>{navigation.navigate('Login')}}>Faça login</Text>
           </Text>
         </View>
         {/* <StatusBar style="auto" /> */}
@@ -88,5 +90,11 @@ const styles = StyleSheet.create({
   },
   linkLogin: {
     color: '#68a0cf',
+    alignContent: 'center',
+    justifyContent: 'center',
+    alignSelf: 'flex-end',
+    padding: 0
   },
 });
+
+export default CadastrarScreen;
