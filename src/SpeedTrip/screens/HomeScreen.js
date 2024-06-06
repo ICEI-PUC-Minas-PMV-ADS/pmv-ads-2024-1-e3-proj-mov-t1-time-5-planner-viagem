@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View, Button } from "react-native";
+import { Button, StyleSheet, Text, View } from "react-native";
 
 export default function HomeScreen({ navigation }) {
   return (
@@ -35,7 +35,11 @@ export default function HomeScreen({ navigation }) {
       <Button title="Principal" onPress={() => navigation.navigate("Principal")} />
       <View style={{ height: 20 }} />
       <Button title="Main" onPress={() => navigation.navigate("Main")} />
-    </View>
+      <View style={{ height: 20 }} />
+      <Button
+        title="Calendario"
+        onPress={() => navigation.navigate('Calendario')}/>
+       </View>
   );
 }
 
