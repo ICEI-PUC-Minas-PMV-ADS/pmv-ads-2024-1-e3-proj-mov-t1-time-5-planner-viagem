@@ -33,6 +33,8 @@ export default function HomeScreen({ navigation }) {
 
       <View style={{ height: 20 }} />
       <Button title="Principal" onPress={() => navigation.navigate("Principal")} />
+      <View style={{ height: 20 }} />
+      <Button title="Main" onPress={() => navigation.navigate("Main")} />
     </View>
   );
 }

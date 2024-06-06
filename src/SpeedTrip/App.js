@@ -10,6 +10,7 @@ import LoginScreen from "./screens/LoginScreen";
 import CadastrarScreen from "./screens/CadastrarScreen";
 import NotasTransporteScreen from "./screens/NotasTransporteScreen";
 import PrincipalScreen from "./screens/PrincipalScreen";
+import MainScreen from "./screens/MainScreen";
 
 const Stack = createNativeStackNavigator();
 
@@ -17,7 +18,7 @@ export default function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator initialRouteName="Home">
-        <Stack.Screen name="Home" component={HomeScreen} />
+        <Stack.Screen name="Home" component={HomeScreen} options={{ headerShown: false }}/>
         <Stack.Screen
           name="NotasListas"
           component={NotasListasScreen}
@@ -30,13 +31,14 @@ export default function App() {
           component={NotesManagementScreen}
           options={{ title: "Gerenciamento de Notas" }}
         />
-        <Stack.Screen name="Login" component={LoginScreen} />
+        <Stack.Screen name="Login" component={LoginScreen} options={{ headerShown: false }}/>
         <Stack.Screen
           name="NotasTransporte"
           component={NotasTransporteScreen}
         />
-        <Stack.Screen name="Cadastrar" component={CadastrarScreen} />
-        <Stack.Screen name="Principal" component={PrincipalScreen} />
+        <Stack.Screen name="Cadastrar" component={CadastrarScreen} options={{ headerShown: false }}/>
+        <Stack.Screen name="Principal" component={PrincipalScreen} options={{ headerShown: false }}/>
+        <Stack.Screen name="Main" component={MainScreen} options={{ headerShown: false }}/>
       </Stack.Navigator>
     </NavigationContainer>
   );
