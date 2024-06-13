@@ -67,3 +67,16 @@ export const deleteNota = async (id) => {
     throw new Error("Erro ao excluir nota: " + error);
   }
 };
+
+// Função genérica para pegar notas da tabela que for passada no argumento! 
+// Não excluir, utilização na página Main
+// By: Matheus Guimarães
+export const getData = async (tableName) => {
+  try {
+    const database = await db;
+    const result = await database.getAllAsync(`SELECT * FROM ${tableName}`);
+    return result;
+  } catch (error) {
+    throw new Error("Erro ao buscar notas: " + error);
+  }
+};
