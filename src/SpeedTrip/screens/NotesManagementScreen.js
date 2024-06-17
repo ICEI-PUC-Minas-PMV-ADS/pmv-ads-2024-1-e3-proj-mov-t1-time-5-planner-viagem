@@ -105,7 +105,7 @@ const NotesManagementScreen = () => {
             <View style={styles.buttonsContainer}>
               <TouchableOpacity onPress={() => handleEdit(item.id, itemIndex)}>
                 <Text style={styles.buttonText}>
-                  {editMode && editItemId === item.id && editItemIndex === itemIndex ? 'Salvar' : 'Editar'}
+                  {editMode && editItemId === item.id && editItemIndex === itemIndex ? 'Salvar   ' : 'Editar   '}
                 </Text>
               </TouchableOpacity>
               <TouchableOpacity onPress={() => handleDeleteItem(item.id, itemIndex)}>
