@@ -1,124 +1,163 @@
 import React, { useState, useEffect } from 'react';
 import { View, Text, TouchableOpacity, StyleSheet, FlatList } from 'react-native';
 import Icon from 'react-native-vector-icons/Ionicons';
+import { getDespesas, deleteDespesa } from '../services/DespesasDbService';
 
-const DespesasScreen = ({ route, navigation }) => {
-    const [despesas, setDespesas] = useState([]);
+const DespesasScreen = ({ navigation }) => {
+  const [despesas, setDespesas] = useState([]);
 
-    useEffect(() => {
-        const novaDespesa = route.params?.novaDespesa;
-        const editarIndex = route.params?.editarIndex;
-        if (novaDespesa) {
-            setDespesas(prevDespesas => [...prevDespesas, novaDespesa]);
-        } else if (editarIndex !== undefined) {
-            const { descricao, valor } = route.params;
-            const novasDespesas = [...despesas];
-            novasDespesas[editarIndex] = { descricao, valor };
-            setDespesas(novasDespesas);
-        }
-    }, [route.params]);
+  useEffect(() => {
+    const unsubscribe = navigation.addListener('focus', () => {
+      carregarDespesas();
+    });
 
-    const editarDespesa = (index, descricao, valor) => {
-        navigation.navigate('CriarDespesas', {
-            editarIndex: index,
-            descricaoInicial: descricao,
-            valorInicial: valor,
-        });
-    };
+    return unsubscribe;
+  }, [navigation]);
 
-    const excluirDespesa = (index) => {
-        const novasDespesas = [...despesas];
-        novasDespesas.splice(index, 1);
-        setDespesas(novasDespesas);
-    };
+  const carregarDespesas = async () => {
+    try {
+      const despesasFromDb = await getDespesas();
+      setDespesas(despesasFromDb);
+    } catch (error) {
+      console.error('Erro ao carregar despesas:', error);
+    }
+  };
 
-    const calcularSomaTotal = () => {
-        const total = despesas.reduce((acc, despesa) => acc + parseFloat(despesa.valor), 0);
-        return total.toFixed(2);
-    };
+  const editarDespesa = (index, descricao, valor, id) => {
+    navigation.navigate('CriarDespesas', {
+      editarIndex: index,
+      descricaoInicial: descricao,
+      valorInicial: valor,
+      id: id,
+    });
+  };
 
-    const navigateToCriarDespesas = () => {
-        navigation.navigate('CriarDespesas');
-    };
+  const excluirDespesa = async (id) => {
+    try {
+      await deleteDespesa(id);
+      carregarDespesas(); // Atualiza a lista após a exclusão
+    } catch (error) {
+      console.error('Erro ao excluir despesa:', error);
+    }
+  };
 
-    return (
-        <View style={styles.container}>
-            <View style={styles.line} />
+  const calcularSomaTotal = () => {
+    const total = despesas.reduce((acc, despesa) => acc + parseFloat(despesa.valor), 0);
+    return total.toFixed(2);
+  };
 
-            <FlatList
-                data={despesas}
-                keyExtractor={(item, index) => index.toString()}
-                renderItem={({ item, index }) => (
-                    <View style={styles.expenseItem}>
-                        <Text style={styles.expenseText}>{item.descricao}: R${parseFloat(item.valor).toFixed(2)}</Text>
-                        <TouchableOpacity onPress={() => editarDespesa(index, item.descricao, item.valor)}>
-                            <Icon name="pencil" size={20} color="#3498DB" style={styles.icon} />
-                        </TouchableOpacity>
-                        <TouchableOpacity onPress={() => excluirDespesa(index)}>
-                            <Icon name="trash" size={20} color="#E74C3C" style={styles.icon} />
-                        </TouchableOpacity>
-                    </View>
-                )}
-            />
+  const navigateToCriarDespesas = () => {
+    navigation.navigate('CriarDespesas');
+  };
 
-            <View style={styles.expenseContainer}>
-                <Text style={styles.totalExpenseText}>Total: R${calcularSomaTotal()}</Text>
+  return (
+    <View style={styles.container}>
+      <FlatList
+        data={despesas}
+        keyExtractor={(item, index) => index.toString()}
+        renderItem={({ item, index }) => (
+          <View style={styles.expenseItem}>
+            <View style={styles.expenseTextContainer}>
+              <Text style={styles.expenseText}>{item.descricao}</Text>
+              <Text style={styles.expenseValue}>R${parseFloat(item.valor).toFixed(2)}</Text>
             </View>
-
-            <TouchableOpacity style={styles.addButton} onPress={navigateToCriarDespesas}>
-                <Icon name="add" size={24} color="#fff" />
-            </TouchableOpacity>
-        </View>
-    );
+            <View style={styles.iconContainer}>
+              <TouchableOpacity onPress={() => editarDespesa(index, item.descricao, item.valor, item.id)}>
+                <Icon name="pencil" size={24} color="#3498DB" style={styles.icon} />
+              </TouchableOpacity>
+              <TouchableOpacity onPress={() => excluirDespesa(item.id)}>
+                <Icon name="trash" size={24} color="#E74C3C" style={styles.icon} />
+              </TouchableOpacity>
+            </View>
+          </View>
+        )}
+        ListFooterComponent={() => (
+          <View style={styles.totalContainer}>
+            <Text style={styles.totalText}>Total: R${calcularSomaTotal()}</Text>
+          </View>
+        )}
+      />
+      <TouchableOpacity style={styles.addButton} onPress={navigateToCriarDespesas}>
+        <Icon name="add" size={30} color="#fff" />
+      </TouchableOpacity>
+    </View>
+  );
 };
 
 const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        backgroundColor: '#fff',
-    },
-    line: {
-        height: 1,
-        backgroundColor: '#ccc',
-        marginVertical: 8,
-    },
-    expenseItem: {
-        flexDirection: 'row',
-        alignItems: 'center',
-        justifyContent: 'space-between',
-        paddingHorizontal: 20,
-        paddingVertical: 12,
-        borderBottomWidth: 1,
-        borderBottomColor: '#ccc',
-    },
-    expenseText: {
-        fontSize: 16,
-        color: '#333',
-    },
-    icon: {
-        marginLeft: 16,
-    },
-    expenseContainer: {
-        backgroundColor: '#f0f0f0',
-        paddingVertical: 16,
-        paddingHorizontal: 20,
-    },
-    totalExpenseText: {
-        fontSize: 18,
-        fontWeight: 'bold',
-        color: '#000',
-    },
-    addButton: {
-        position: 'absolute',
-        bottom: 24,
-        right: 24,
-        backgroundColor: '#3498DB',
-        borderRadius: 30,
-        width: 60,
-        height: 60,
-        justifyContent: 'center',
-        alignItems: 'center',
-    },
+  container: {
+    flex: 1,
+    backgroundColor: '#f5f5f5',
+    paddingHorizontal: 10,
+    paddingTop: 20,
+  },
+  expenseItem: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    paddingVertical: 15,
+    paddingHorizontal: 15,
+    backgroundColor: '#fff',
+    borderRadius: 10,
+    marginBottom: 10,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.1,
+    shadowRadius: 5,
+    elevation: 2,
+  },
+  expenseTextContainer: {
+    flex: 1,
+  },
+  expenseText: {
+    fontSize: 18,
+    fontWeight: '500',
+    color: '#333',
+  },
+  expenseValue: {
+    fontSize: 16,
+    color: '#666',
+  },
+  iconContainer: {
+    flexDirection: 'row',
+  },
+  icon: {
+    marginLeft: 15,
+  },
+  totalContainer: {
+    paddingVertical: 20,
+    backgroundColor: '#fff',
+    borderRadius: 10,
+    paddingHorizontal: 15,
+    marginTop: 10,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.1,
+    shadowRadius: 5,
+    elevation: 2,
+  },
+  totalText: {
+    fontSize: 20,
+    fontWeight: 'bold',
+    color: '#333',
+    textAlign: 'center',
+  },
+  addButton: {
+    position: 'absolute',
+    bottom: 20,
+    right: 20,
+    backgroundColor: '#3498DB',
+    borderRadius: 50,
+    width: 60,
+    height: 60,
+    justifyContent: 'center',
+    alignItems: 'center',
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.3,
+    shadowRadius: 4,
+    elevation: 5,
+  },
 });
 
 export default DespesasScreen;
