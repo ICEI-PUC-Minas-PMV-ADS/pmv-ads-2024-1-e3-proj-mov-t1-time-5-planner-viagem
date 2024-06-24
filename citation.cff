@@ -1,0 +1,25 @@
+message: Please cite this software using these metadata.
+title: SpeedTrip
+authors:
+  - family-names: Drumond Fonte Boa
+    given-names: Daniel
+  - family-names: Heder Ferreira Paulo
+    given-names: Isaac
+  - family-names: Rodrigues Ferreira
+    given-names: Juliane
+  - family-names: Aguiar França
+    given-names: Marcos Henrique
+  - family-names: Nunes Guimarães
+    given-names: Matheus
+  - family-names: Silva Salomão
+    given-names: Maria Fernanda
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: dos Santos Machado
+    given-names: Will Ricardo
+keywords:
+  - Planner
+  - Viagem
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t1-time-5-planner-viagem
+version: 1.0.0
+date-released: 2024-06-23
