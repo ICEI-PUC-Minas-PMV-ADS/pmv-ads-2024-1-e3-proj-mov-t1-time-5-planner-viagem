@@ -10,19 +10,19 @@ Ao entrar em nosso aplicativo, você é recebido pela nossa logo distintiva.
 
 <img src="../docs/img/prototipo/Logo.png">
 
-## Pagina de apresentação 
+## Pagina de apresentação
 
 Após isso, o usuário inicialmente visualiza a página de boas-vindas que contém um pequeno texto de apresentação da aplicação e as opções de logar ou criar conta.
 
 <img src="../docs/img/prototipo/Pagina-inicial.png">
 
-## Cadastro 
+## Cadastro
 
 Para realizar o primeiro acesso na aplicação, o usuário precisa efetuar o cadastro com seus dados pessoais.
 
 <img src="../docs/img/prototipo/Cadastro.png">
 
-## Login 
+## Login
 
 Na tela login é possivel acessar a aplicação com e-mail e senha pré-cadastrado.
 
@@ -34,7 +34,7 @@ Na tela de redefinir senha, permite aos usuários redefinir a senha de sua conta
 
 <img src="../docs/img/prototipo/Recuperar senha.png">
 
-## Cadastro de Viagem 
+## Cadastro de Viagem
 
 Na tela de cadastro de viagem, oferecemos aos usuários a oportunidade de registrar uma nova viagem, fornecendo informações essenciais como destino, data de check-in e data de check-out.
 
@@ -42,23 +42,23 @@ Na tela de cadastro de viagem, oferecemos aos usuários a oportunidade de regist
 
 ## Seleção de datas
 
-Na tela de seleção de datas, oferecemos aos usuários a capacidade de escolher as datas de check-in e check-out para sua viagem por meio de um calendário interativo. 
+Na tela de seleção de datas, oferecemos aos usuários a capacidade de escolher as datas de check-in e check-out para sua viagem por meio de um calendário interativo.
 
 <img src="../docs/img/prototipo/Calendario.png">
 
-## Home 
+## Home
 
 Na página home, oferecemos aos usuários uma experiência centralizada, onde podem acessar todo o conteúdo do aplicativo e gerenciar suas viagens de forma conveniente.
 
 <img src="../docs/img/prototipo/Home.png">
 
-## Pagina Principal 
+## Pagina Principal
 
 Na página principal, oferecemos aos usuários uma plataforma intuitiva para gerenciar todos os aspectos das suas viagens. Aqui, você pode visualizar informações importantes sobre seus destinos, datas de check-in e check-out, bem como registrar detalhes essenciais sobre itinerários, acomodações, transporte, despesas e muito mais.
 
 <img src="../docs/img/prototipo/Principal.png">
 
-## Notas não registradas 
+## Notas não registradas
 
 Aqui, você pode visualizar um exemplo de como serão organizados todos os registros relacionados à sua viagem, incluindo itinerários, acomodações, transporte, listas, documentos e despesas. No entanto, neste momento, não há nenhum registro adicionado para esta viagem.
 
